@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version       = "0.0.1"
   s.summary       = "iOS-Gami-Appi SDK for Hello World"
   s.description   = "iOS-Gami-Appi for Hello World, including example app"
-  s.homepage      = "https://github.com/abdallah4021/"
+  s.homepage      = "https://github.com/Abdallah4021/GamiAppi.git"
   s.license       = "MIT"
   s.author        = "Abdallah"
   s.platform      = :ios, "9.0"
@@ -14,4 +14,7 @@ Pod::Spec.new do |s|
   }
   s.source_files        = "GamiAppi/**/*.{h,m,swift}"
   s.public_header_files = "GamiAppi/**/*.h"
+  s.resources                 = [
+    "GamiAppi/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+    ]
 end
