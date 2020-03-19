@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version       = "1.2.1"
   s.summary       = "Gamibot"
   s.description   = "Gamibot, is the loyality program that provide gamified user journey, with rewarding system, where users can get points by doing certine actions. and they can be rewarded for doing these actions."
-  s.homepage      = "https://github.com/Abdallah4021/GamiAppi.git"
+  s.homepage      = "https://bitbucket.org/gamiphy/ios-gamiphy-sdk.git"
   s.license       = "MIT"
   s.author        = { "Gamiphy" => "support@gamiphy.co" }
   s.platform      = :ios, "9.0"
