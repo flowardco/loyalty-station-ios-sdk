@@ -1,6 +1,0 @@
-framework module GamiAppi {
-  umbrella header "GamiAppi-umbrella.h"
-
-  export *
-  module * { export * }
-}

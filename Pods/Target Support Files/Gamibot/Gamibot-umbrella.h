@@ -12,6 +12,6 @@
 
 #import "GamiAppi.h"
 
-FOUNDATION_EXPORT double GamiAppiVersionNumber;
-FOUNDATION_EXPORT const unsigned char GamiAppiVersionString[];
+FOUNDATION_EXPORT double GamibotVersionNumber;
+FOUNDATION_EXPORT const unsigned char GamibotVersionString[];
 

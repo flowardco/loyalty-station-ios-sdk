@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
   s.resources                 = [
     "GamiAppi/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
     ]
-  s.framework                  = "UIKit"
 
 end

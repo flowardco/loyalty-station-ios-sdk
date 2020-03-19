@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C3E9070649D4288625BE45305CFBD48"
-               BuildableName = "GamiAppi.framework"
-               BlueprintName = "GamiAppi"
+               BlueprintIdentifier = "1CFB53B1B862C36D3670A454705D7703"
+               BuildableName = "Gamibot.framework"
+               BlueprintName = "Gamibot"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

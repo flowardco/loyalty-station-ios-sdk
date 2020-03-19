@@ -1,16 +1,16 @@
 PODS:
-  - GamiAppi (0.0.1)
+  - Gamibot (1.2.1)
 
 DEPENDENCIES:
-  - GamiAppi (from `.`)
+  - Gamibot (from `.`)
 
 EXTERNAL SOURCES:
-  GamiAppi:
+  Gamibot:
     :path: "."
 
 SPEC CHECKSUMS:
-  GamiAppi: 91cf8368835c937dc4bcdcfe6e871bb371b19975
+  Gamibot: 9f7f5d940a5eaef835ba8c21d24ba3ed60f25bc3
 
-PODFILE CHECKSUM: a80c45b3499dce822e7531d986edaa41bed15b0a
+PODFILE CHECKSUM: 0395bc63b2f8504df29e9f41e675e5bcf3c5e797
 
 COCOAPODS: 1.9.1
