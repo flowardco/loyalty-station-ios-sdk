@@ -35,7 +35,7 @@ class ViewController: UIViewController {
                 GamiphySDK.shared.open(on: self)
         
                 DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
-                    GamiphySDK.shared.authUser(user: GamiphyUser(name: "John Smith", email: "john@smith.com"))
+                    GamiphySDK.shared.authUser(user: GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co"))
     }
 }
 

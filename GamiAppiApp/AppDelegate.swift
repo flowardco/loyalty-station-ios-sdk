@@ -19,12 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.'
         GamiphySDK.shared.delegate = self
         var options = GamiphyBotOptions()
-        options.hMacKey = "e71f524cee7995766626bd40350d883d14ded66dc095a3b89fb71b89faa751ce"
-        options.clientID = "5dc9335e5d2ed200121fc720"
+        options.hMacKey = "94c711455c8fabb3c3ffacace7711eda10be9d1147afa140872af60b026ebfca"
+        options.clientID = "5e550cb0d3fc7a001941bbae"
         options.language = "english"
         
-        GamiphySDK.shared.initialize(botID: "5dc9335e5d2ed200121fc720", options: options)
-        var user = GamiphyUser(name: "John Smith", email: "john@smith.com")
+        GamiphySDK.shared.initialize(botID: "5e550cb17686f0001299e853", options: options)
+        var user = GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co")
         user.referral = GamiphyReferral(code: "erwrw432")
         GamiphySDK.shared.authUser(user: user)
         return true
