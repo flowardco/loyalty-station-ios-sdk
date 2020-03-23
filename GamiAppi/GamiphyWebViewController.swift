@@ -263,6 +263,17 @@ class GamiphyWebViewController: UIViewController, WKScriptMessageHandler {
                                     if let data = dictonary["data"] as? NSDictionary, let packageID = data["packageId"] as? String, let pointsToRedeem = data["pointsToRedeem"] as? Int, let value = data["value"] as? Int {
                                         self.delegate?.webViewUser(didTriggerRedeem: packageID, pointsToRedeem: pointsToRedeem, value: value)
                                     }
+                                } else if type == "share"{
+                                    
+                                    let data = dictonary["data"] as? NSDictionary
+                                    // text to share
+                                    if let link = data?["link"] as? String,let text = data?["text"] as? String{
+                                        let textShare = [ text+"\n"+link]
+                                        let activityViewController = UIActivityViewController(activityItems: textShare , applicationActivities: nil)
+                                        activityViewController.popoverPresentationController?.sourceView = self.view
+                                        self.present(activityViewController, animated: true, completion: nil)
+                                        
+                                    }
                                 }
                             }
                         }
