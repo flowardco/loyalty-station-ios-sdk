@@ -97,7 +97,7 @@ class GamiphyWebViewController: UIViewController, WKScriptMessageHandler {
         var scriptSource = "window.postMessage({origin: 'Gamiphy', type: 'initialize'},'*')"
         
         if let user = GamiphySDK.shared.user {
-            scriptSource = "window.postMessage({origin: 'Gamiphy', type: 'initialize', data: { user: '\(user.token ?? "")' \(GamiphySDK.shared.options.language == nil ? "" : ", language: '\(GamiphySDK.shared.options.language!)'")}},'*')"
+            scriptSource = "window.postMessage({origin: 'Gamiphy', type: 'initialize', data: { user: '\(user.token ?? "")' \(GamiphySDK.shared.options.language == nil ? "" : ", language: '\(GamiphySDK.shared.options.language!)'"), parentWindow:{type: 'iOS'}}},'*')"
         }
         
         let userScript = WKUserScript(source: scriptSource, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
