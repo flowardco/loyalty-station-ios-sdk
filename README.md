@@ -5,7 +5,7 @@
 
 ## Inroduction 
 
-Gamibot, is the loyality program that provide gamified user journey, with rewarding system, where users can get points by doing certine actions. and they 
+Gamibot, is the loyalty program that provide gamified user journey, with rewarding system, where users can get points by doing certine actions. and they 
 can be rewarded for doing these actions. 
 
 ## Example
@@ -29,8 +29,8 @@ pod 'Gamibot'
 
 ## Getting started
 
-Gamiphy SDK needs to be initialized, you can do that by calling the initialize methid as shown below, and pass some required data / parameters that 
-you can get after you signup for an account at Gamiphy. kinldy note the initilize method below. 
+Gamiphy SDK needs to be initialized, you can do that by calling the initialize method as shown below, and pass some required data/parameters that 
+you can get after you signup for an account at Gamiphy. kindly note the initialize method below. 
 
 ```swift
 GamiphySDK.shared.initialize(botID: "", hMacKey: "", clientID: "")
@@ -48,14 +48,14 @@ let button = GamiphyBotButton(frame: CGRect.zero)
 self.view.addSubview(button)
 ```
 
-- If you are interested on having your own widget/button that will be repsonsible to open the bot, or you want to open the bot after a certin action. you can do so by calling the following method: 
+- If you are interested in having your own widget/button that will be responsible to open the bot, or you want to open the bot after a certain action. you can do so by calling the following method: 
 
 ```swift
 
 GamiphySDK.shared.showBot(on: viewController)
 ```
 
-- If you want to hide current active bot view you can use this code.
+- If you want to hide the current active bot view you can use this code.
 
 ```swift
 
@@ -64,10 +64,9 @@ GamiphySDK.shared.hideBot()
 
 ## Bot visitor flow 
 
-Gamibot support the ability for the end users to navigate the different features available, without even being logged in. but whenever 
-the users trying to perform the tasks / actions so they can get the points, Gamibot will encourage them to either login or signup to the application. 
+Gamibot supports the ability for the end-users to navigate the different features available, without even being logged in. but whenever the users trying to perform the tasks/actions so they can get the points, Gamibot will encourage them to either login or signup to the application. 
 
-You need to specify the ViewControllers where the users can login / register in your application. you should implement the delegate by doing as the following: 
+You need to specify the ViewControllers where the users can login/register in your application. you should implement the delegate by doing as the following: 
 
 ```swift
 GamiphySDK.shared.delegate = self
@@ -81,14 +80,14 @@ Delegate Methods:
     func gamiphySDK(didAuthUser email: String)
 ```
 
-- Failed to auth user when authonticating user failed and returns the error that caused it.
+- Failed to auth user when authenticating user failed and returns the error that caused it.
 
 ```swift
 
     func gamiphySDK(failedToAuthUser email: String, with error: Error)
 ```
 
-- Did Trigger event with event name, this method called when an event triggered from the bot and returnes the action name.
+- Did Trigger event with the event name, this method called when an event triggered by the bot and returned the action name.
 
 ```swift
     func gamiphySDK(didTriggerEvent name: String)
@@ -101,7 +100,7 @@ Delegate Methods:
    func gamiphySDKUserNotLoggedIn()
 ```
 
-- User requires Register, this method called when the bot requires register for the user or the signup button inside bot clicked.
+- User requires Register, this method called when the bot requires to register for the user or the signup button inside bot clicked.
 
 ```swift
 
@@ -110,20 +109,20 @@ Delegate Methods:
 
 ## Registering the users
 
-As Gamibot is a loyality program that should be able to give points for the users, you can simply register your users for our SDK by calling this method. 
+As Gamibot is a loyalty program that should be able to give points for the users, you can simply register your users for our SDK by calling this method. 
 
 ```swift
    func authUser(name: String, email: String)
 ```
 
-you need to call this method in both cases the login / signup if you do instant login of your users after they login/signup. 
+you need to call this method in both cases the login/signup if you do instant login of your users after they login/signup. 
 
 
 ## Creating the tasks: 
 
 
-You need to send the custom event actions whenever its done using the method triggerTask shown below.
-This method take the event name label and mark it as done.
+You need to send the custom event actions whenever it done using the method triggerTask shown below.
+This method takes the event name label and mark it as done.
 
 ```swift
 func triggerTask(name: String, arguments: [AnyHashable: String])
