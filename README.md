@@ -33,7 +33,10 @@ Gamiphy SDK needs to be initialized, you can do that by calling the initialize m
 you can get after you signup for an account at Gamiphy. kindly note the initialize method below. 
 
 ```swift
-GamiphySDK.shared.initialize(botID: "", hMacKey: "", clientID: "")
+var options = GamiphyBotOptions()
+options.hMacKey = ""
+options.clientID = ""
+GamiphySDK.shared.initialize(botID: "", options: options)
 ```
 
 ## Showing the bot within your application
@@ -112,7 +115,8 @@ Delegate Methods:
 As Gamibot is a loyalty program that should be able to give points for the users, you can simply register your users for our SDK by calling this method. 
 
 ```swift
-   func authUser(name: String, email: String)
+   var user = GamiphyUser(name: "", email: "")
+   GamiphySDK.shared.authUser(user: user)
 ```
 
 you need to call this method in both cases the login/signup if you do instant login of your users after they login/signup. 
