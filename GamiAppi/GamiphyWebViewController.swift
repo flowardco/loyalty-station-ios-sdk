@@ -260,7 +260,7 @@ class GamiphyWebViewController: UIViewController, WKScriptMessageHandler {
                                         self.delegate?.webViewUser(didTriggerEvent: actionName)
                                     }
                                 } else if type == "redeemTrigger" {
-                                    if let data = dictonary["data"] as? NSDictionary, let packageID = data["packageId"] as? String, let pointsToRedeem = data["pointsToRedeem"] as? Int, let value = data["value"] as? Int {
+                                    if let data = dictonary["data"] as? NSDictionary, let packageID = data["packageId"] as? String, let pointsToRedeem = data["pointsToRedeem"] as? Int, let value = data["value"] as? Double {
                                         self.delegate?.webViewUser(didTriggerRedeem: packageID, pointsToRedeem: pointsToRedeem, value: value)
                                     }
                                 } else if type == "share"{
@@ -374,5 +374,5 @@ protocol GamiphyWebViewControllerDelegate: class {
      - Parameter pointsToRedeem: The Points user going to redeem.
      - Parameter value: The amount value user going to redeem.
      */
-    func webViewUser(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Int)
+    func webViewUser(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Double)
 }

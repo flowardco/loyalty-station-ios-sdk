@@ -105,7 +105,13 @@ public class GamiphySDK {
      - Parameter pointsToRedeem: The points to redeem.
      */
     public func markRedeemDone(packageID: String, pointsToRedeem: Int) {
-        self.networkManager.request(url: String(format: Apis.markRedeemDone.path, self.botID, packageID), method: "POST", keyPath: "",parameters: ["pointsToRedeem": pointsToRedeem], headers: ["Authorization": "JWT " + (self.user?.token ?? "")]) { (result: Result<[String: String?]?, Error>) in
+        self.networkManager.request(url: String(format: Apis.markRedeemDone.path, self.botID, packageID), method: "POST", keyPath: "",parameters: ["pointsToRedeem": pointsToRedeem], headers: ["Authorization": "JWT " + (self.user?.token ?? "")]) {
+            (result: Result<[String: String?]?, Error>) in
+            print(result)
+//            let result as NSError {
+//                print(error.localizedDescription)
+//            }
+
             return
         }
     }
@@ -203,7 +209,7 @@ public protocol GamiphySDKDelegate: NSObjectProtocol {
      - Parameter pointsToRedeem: The Points user going to redeem.
      - Parameter value: The amount value user going to redeem.
      */
-    func gamiphySDK(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Int)
+    func gamiphySDK(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Double)
 }
 
 public extension GamiphySDKDelegate {
@@ -243,7 +249,7 @@ public extension GamiphySDKDelegate {
      - Parameter pointsToRedeem: The Points user going to redeem.
      - Parameter value: The amount value user going to redeem.
      */
-    func gamiphySDK(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Int) {}
+    func gamiphySDK(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Double) {}
 }
 
 // MARK: - GamiphyWebViewControllerDelegate
@@ -277,7 +283,7 @@ extension GamiphySDK: GamiphyWebViewControllerDelegate {
      - Parameter pointsToRedeem: The Points user going to redeem.
      - Parameter value: The amount value user going to redeem.
      */
-    func webViewUser(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Int) {
+    func webViewUser(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Double) {
         self.delegate?.gamiphySDK(didTriggerRedeem: packageID, pointsToRedeem: pointsToRedeem, value: value)
     }
 }

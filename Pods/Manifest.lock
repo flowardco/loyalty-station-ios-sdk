@@ -1,5 +1,5 @@
 PODS:
-  - Gamibot (2.0.0)
+  - Gamibot (2.0.2)
 
 DEPENDENCIES:
   - Gamibot (from `.`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  Gamibot: 60821ee7bb538d77dc139b97d907bfa3dba24c73
+  Gamibot: 00c6d459bd09cd6fc9c82ab98a218d62b5f8c608
 
 PODFILE CHECKSUM: 0395bc63b2f8504df29e9f41e675e5bcf3c5e797
 

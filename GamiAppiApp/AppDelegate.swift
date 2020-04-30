@@ -49,18 +49,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate: GamiphySDKDelegate {
     
     func gamiphySDK(didAuthUser email: String) {
+        print(email)
     }
     
     func gamiphySDK(failedToAuthUser email: String) {
-        print("dddd")
     }
     
     func gamiphySDKUserNotLoggedIn() {
-        
+        var user = GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co")
+        user.referral = GamiphyReferral(code: "erwrw432")
+        GamiphySDK.shared.authUser(user: user)
+    }
+    func gamiphySDK(didTriggerEvent name: String){
+        GamiphySDK.shared.markTaskDone(name: "openBugEvent")
     }
     
-    func gamiphySDK(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Int) {
-        GamiphySDK.shared.markRedeemDone(packageID: packageID, pointsToRedeem: pointsToRedeem)
+    func gamiphySDK(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Double) {
+        print(GamiphySDK.shared.markRedeemDone(packageID: packageID, pointsToRedeem: pointsToRedeem))
     }
 
 }
