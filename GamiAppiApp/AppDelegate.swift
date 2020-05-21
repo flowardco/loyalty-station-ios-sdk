@@ -11,16 +11,15 @@ import Gamibot
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.'
         GamiphySDK.shared.delegate = self
         var options = GamiphyBotOptions()
         options.hMacKey = "94c711455c8fabb3c3ffacace7711eda10be9d1147afa140872af60b026ebfca"
-        options.clientID = "5e550cb0d3fc7a001941bbae"
         options.language = "english"
         
         GamiphySDK.shared.initialize(botID: "5e550cb17686f0001299e853", options: options)

@@ -31,12 +31,10 @@ class ViewController: UIViewController {
     
     @IBAction func open(_ sender: Any) {
         
-                
-                GamiphySDK.shared.open(on: self)
         
-                DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
-                    GamiphySDK.shared.authUser(user: GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co"))
-    }
-}
-
+        GamiphySDK.shared.open(on: self)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+            GamiphySDK.shared.authUser(user: GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co"))
+        }
 }

@@ -7,63 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C295AF7C-04FE-4AA7-A748-A94E647D7DB9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GamiAppi/GamiphySDK.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "markRedeemDone(packageID:pointsToRedeem:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C295AF7C-04FE-4AA7-A748-A94E647D7DB9 - bd274325c171cf14"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Gamibot.GamiphySDK.markRedeemDone(packageID: Swift.String, pointsToRedeem: Swift.Int) -&gt; ()"
-                  moduleName = "Gamibot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "108"
-                  endingLineNumber = "108"
-                  offsetFromSymbolStart = "173">
-               </Location>
-               <Location
-                  uuid = "C295AF7C-04FE-4AA7-A748-A94E647D7DB9 - ba4c41846e6d3c5d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.Optional&lt;Swift.String&gt;&gt;&gt;, Swift.Error&gt;) -&gt; () in Gamibot.GamiphySDK.markRedeemDone(packageID: Swift.String, pointsToRedeem: Swift.Int) -&gt; ()"
-                  moduleName = "Gamibot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "110"
-                  endingLineNumber = "110"
-                  offsetFromSymbolStart = "35">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "4DA84EF6-D551-4465-A5FE-591B1D0148A5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GamiAppi/GamiphyWebViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
             landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +30,8 @@
             filePath = "GamiAppi/GamiphyWebViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "264"
-            endingLineNumber = "264"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
             landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -87,88 +39,662 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "381DBD8E-EC3E-4B96-8A9A-4E3593F87024"
-            shouldBeEnabled = "Yes"
+            uuid = "CCB35FFB-6042-4C3F-8114-96C09D519321"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GamiAppi/GamiphySDK.swift"
+            filePath = "GamiAppi/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "markRedeemDone(packageID:pointsToRedeem:)"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "request(urlRequest:keyPath:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CCB35FFB-6042-4C3F-8114-96C09D519321 - 7e6e23d55acc287b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gamibot.NetworkManager.request&lt;A where A: Swift.Decodable&gt;(urlRequest: Foundation.URLRequest, keyPath: Swift.String, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "CCB35FFB-6042-4C3F-8114-96C09D519321 - c5d7b3a31a8acaeb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Gamibot.NetworkManager.request&lt;A where A: Swift.Decodable&gt;(urlRequest: Foundation.URLRequest, keyPath: Swift.String, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDDCB074-65CB-40CA-99B3-9EA2D48AE831"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "request(urlRequest:keyPath:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FF6B2FDE-40FE-486C-BE46-C74BE9B48C74"
-            shouldBeEnabled = "Yes"
+            uuid = "1BAE0B1F-3ECB-49D2-8FBF-1087735883BF"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GamiAppi/GamiphySDK.swift"
+            filePath = "GamiAppi/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "markRedeemDone(packageID:pointsToRedeem:)"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "request(urlRequest:keyPath:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7C142E2F-C211-439B-BA63-9BAF77E05679"
+            uuid = "ECC78417-751E-42E0-8769-A2CBD4956AEA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "request(urlRequest:keyPath:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF438069-1A88-4868-A70D-32C3324D2478"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "request(urlRequest:keyPath:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FA634F5-1AB7-40C9-97BD-FE7271267B88"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "request(urlRequest:keyPath:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F91DC79-0B12-47EC-9B5C-42616827AD1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "authUser(user:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F91DC79-0B12-47EC-9B5C-42616827AD1C - 2187c724a4f51d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Gamibot.AuthUserResponse, Swift.Error&gt;) -&gt; () in Gamibot.GamiphySDK.authUser(user: Gamibot.GamiphyUser) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  uuid = "6F91DC79-0B12-47EC-9B5C-42616827AD1C - 2187c724a4f51d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Gamibot.AuthUserResponse, Swift.Error&gt;) -&gt; () in Gamibot.GamiphySDK.authUser(user: Gamibot.GamiphyUser) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  uuid = "6F91DC79-0B12-47EC-9B5C-42616827AD1C - 2187c724a4f51d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Gamibot.AuthUserResponse, Swift.Error&gt;) -&gt; () in Gamibot.GamiphySDK.authUser(user: Gamibot.GamiphyUser) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "1013">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "144123AB-E8A3-42B4-808E-0D5D29C81B4F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "authUser(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D68DA77-2F5E-4031-9746-409854B758C3"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GamiAppi/GamiphySDK.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "markRedeemDone(packageID:pointsToRedeem:)"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "authUser(user:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E391A16C-B093-4A66-B41A-29E4B3C5F9CF"
+            uuid = "BFB0BEF7-D057-448C-8252-A156628D3F0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "authUser(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46DD3AE5-B25E-48BE-A52E-36D2D5410752"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "GamiphySDK"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A402DDC-0FBF-4DF2-A7B8-64EC5A6F54AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "GamiphySDK"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E7A43DC-73DE-46CD-8630-2E163F7B5DBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "authUser(user:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E7A43DC-73DE-46CD-8630-2E163F7B5DBC - 5ae45458aac58b28"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gamibot.GamiphySDK.authUser(user: Gamibot.GamiphyUser) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "1481">
+               </Location>
+               <Location
+                  uuid = "4E7A43DC-73DE-46CD-8630-2E163F7B5DBC - 2187c724a4f51d86"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Gamibot.AuthUserResponse, Swift.Error&gt;) -&gt; () in Gamibot.GamiphySDK.authUser(user: Gamibot.GamiphyUser) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F42D0805-0D8B-492A-8D2F-0D6DBC2ACC34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "path"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E503D3E-7354-4F81-9593-F09D92A4C980"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GamiAppi/GamiphySDK.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "markRedeemDone(packageID:pointsToRedeem:)"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "loadBotConfiguration()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8EE9070B-3FA8-4D2C-BC41-F8DB6ECE83DB"
-            shouldBeEnabled = "Yes"
+            uuid = "E6133F8D-90A6-4866-B540-6E678E81E636"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GamiAppi/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "request(url:method:keyPath:parameters:headers:completion:)"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "path"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D119F92-81D6-4E9F-AD96-F5DC9F801D78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppiApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "gamiphySDKUserNotLoggedIn()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CE18BAE2-39A1-4899-BCDE-2BE7B8593503"
+            uuid = "DB740418-DA20-4CF4-9279-1A5982B3DDB5"
             shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphyWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6302B6B-1C22-4E6B-9BC0-3FC77D343A19"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphyWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9C04AC0-9204-4E89-BDF5-2ADF9488BA25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/Models/GamiphyBotOptions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "440BB5C2-7993-4750-842F-BACAAF6E7103"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "GamiphySDK"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B7F3FDE-AF80-4535-B928-5E98110D3A1B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphyWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B70F904A-8341-4017-AA4A-02278B53EC46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/Models/GamiphyBotOptions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D6AFA06-7302-4B62-9284-E06D82A5185C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppiApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "gamiphySDK(didTriggerEvent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBAD32DA-D1DD-45FD-995A-CFD6717AF036"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppiApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "gamiphySDK(didTriggerRedeem:pointsToRedeem:value:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E2F5FA5-6FB6-49D2-B453-4B76885574B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppiApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "gamiphySDK(failedToAuthUser:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0241E41C-CA85-4BBB-ABF6-3410D907D133"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppiApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "gamiphySDK(didAuthUser:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF2033E6-1369-41AF-A837-FB89573E8137"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphyWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F12FEB9-D8F6-4627-9E0E-6A469A20FA6B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "authUser(user:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F12FEB9-D8F6-4627-9E0E-6A469A20FA6B - 2187c724a4f51d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Gamibot.AuthUserResponse, Swift.Error&gt;) -&gt; () in Gamibot.GamiphySDK.authUser(user: Gamibot.GamiphyUser) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  uuid = "9F12FEB9-D8F6-4627-9E0E-6A469A20FA6B - 2187c724a4f51d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Gamibot.AuthUserResponse, Swift.Error&gt;) -&gt; () in Gamibot.GamiphySDK.authUser(user: Gamibot.GamiphyUser) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  uuid = "9F12FEB9-D8F6-4627-9E0E-6A469A20FA6B - 2187c724a4f51d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Gamibot.AuthUserResponse, Swift.Error&gt;) -&gt; () in Gamibot.GamiphySDK.authUser(user: Gamibot.GamiphyUser) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/GamiphySDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "1013">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8220791F-4ACE-4FDD-8B6D-93577F8934DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphyWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8941BBD-BAFF-4AF4-AF58-E8F92576B29E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "authUser(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D105F44F-276A-45BC-B4B4-6B3291E0C761"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GamiAppi/NetworkManager.swift"
@@ -183,8 +709,72 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3276EA8C-3031-42D4-8E16-F08A8A7EEE8B"
-            shouldBeEnabled = "Yes"
+            uuid = "873EC4F4-D8FE-4A2E-A4CD-D1D591634AF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "request(url:method:keyPath:parameters:headers:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D4CE9D7-57A8-47FC-BEBA-C69501B9BBA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "request(url:method:keyPath:parameters:headers:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D4CE9D7-57A8-47FC-BEBA-C69501B9BBA8 - 9c3f3433b6c42343"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gamibot.NetworkManager.request&lt;A where A: Swift.Decodable&gt;(url: Swift.String, method: Swift.String, keyPath: Swift.String, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, headers: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "2008">
+               </Location>
+               <Location
+                  uuid = "2D4CE9D7-57A8-47FC-BEBA-C69501B9BBA8 - 9c3f3433b6c42343"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gamibot.NetworkManager.request&lt;A where A: Swift.Decodable&gt;(url: Swift.String, method: Swift.String, keyPath: Swift.String, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, headers: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Gamibot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Abdallah/development/xCodeProjects/ios-gamiphy-sdk/GamiAppi/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "2326">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3814BE0-79E3-461E-B801-4B23C4A9C098"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GamiAppi/NetworkManager.swift"
@@ -199,24 +789,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6E7F744C-889E-456B-A7E3-572100A0BD60"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GamiAppi/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "request(url:method:keyPath:parameters:headers:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CCB35FFB-6042-4C3F-8114-96C09D519321"
-            shouldBeEnabled = "Yes"
+            uuid = "C1FF8711-CAE0-4857-B13D-F66E40092C16"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GamiAppi/NetworkManager.swift"
@@ -228,8 +802,8 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "CCB35FFB-6042-4C3F-8114-96C09D519321 - 7e6e23d55acc287b"
-                  shouldBeEnabled = "Yes"
+                  uuid = "C1FF8711-CAE0-4857-B13D-F66E40092C16 - 7e6e23d55acc287b"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Gamibot.NetworkManager.request&lt;A where A: Swift.Decodable&gt;(urlRequest: Foundation.URLRequest, keyPath: Swift.String, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
@@ -243,8 +817,8 @@
                   offsetFromSymbolStart = "212">
                </Location>
                <Location
-                  uuid = "CCB35FFB-6042-4C3F-8114-96C09D519321 - c5d7b3a31a8acaeb"
-                  shouldBeEnabled = "Yes"
+                  uuid = "C1FF8711-CAE0-4857-B13D-F66E40092C16 - c5d7b3a31a8acaeb"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Gamibot.NetworkManager.request&lt;A where A: Swift.Decodable&gt;(urlRequest: Foundation.URLRequest, keyPath: Swift.String, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
@@ -263,80 +837,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EDDCB074-65CB-40CA-99B3-9EA2D48AE831"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GamiAppi/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "request(urlRequest:keyPath:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1BAE0B1F-3ECB-49D2-8FBF-1087735883BF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GamiAppi/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "request(urlRequest:keyPath:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ECC78417-751E-42E0-8769-A2CBD4956AEA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GamiAppi/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "request(urlRequest:keyPath:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EF438069-1A88-4868-A70D-32C3324D2478"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GamiAppi/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "request(urlRequest:keyPath:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8FA634F5-1AB7-40C9-97BD-FE7271267B88"
+            uuid = "D262E16B-743E-4457-99C7-DD162857AD72"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GamiAppi/NetworkManager.swift"
+            filePath = "GamiAppi/GamiphyWebViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "request(urlRequest:keyPath:completion:)"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0862C0C4-8488-4AFE-AD6C-F78E5E81CD2C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphySDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "authUser(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AEB2CE8-CDDE-4973-97C1-779A46A85EAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppiApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "gamiphySDK(didTriggerEvent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51A9355C-46F5-4934-8B5E-5D250FF97BA4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamiAppi/GamiphyWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

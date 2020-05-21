@@ -62,11 +62,6 @@ class GamiphyWebViewController: UIViewController, WKScriptMessageHandler {
         if let brandColor = GamiphySDK.shared.configuration?.style.brandColor {
             self.view.backgroundColor = UIColor(hex: brandColor)
         }
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
         // Show loading view
         self.showHideLoadingView(true)
         
