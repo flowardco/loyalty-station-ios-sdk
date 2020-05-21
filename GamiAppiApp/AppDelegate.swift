@@ -18,13 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.'
         GamiphySDK.shared.delegate = self
-        var options = GamiphyBotOptions()
-        options.hMacKey = "94c711455c8fabb3c3ffacace7711eda10be9d1147afa140872af60b026ebfca"
-        options.language = "english"
         
+        var options = GamiphyBotOptions()
+        GamiphySDK.shared.setDebug(true) // choose false for producation env
+        options.hMacKey = "94c711455c8fabb3c3ffacace7711eda10be9d1147afa140872af60b026ebfca"
         GamiphySDK.shared.initialize(botID: "5e550cb17686f0001299e853", options: options)
-        var user = GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co")
-        user.referral = GamiphyReferral(code: "erwrw432")
+        let user = GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co")
         GamiphySDK.shared.authUser(user: user)
         return true
     }
@@ -56,7 +55,6 @@ extension AppDelegate: GamiphySDKDelegate {
     
     func gamiphySDKUserNotLoggedIn() {
         var user = GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co")
-        user.referral = GamiphyReferral(code: "erwrw432")
         GamiphySDK.shared.authUser(user: user)
     }
     func gamiphySDK(didTriggerEvent name: String){

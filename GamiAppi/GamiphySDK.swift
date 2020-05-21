@@ -61,7 +61,9 @@ public class GamiphySDK {
      */
     public func initialize(botID: String, options: GamiphyBotOptions) {
         self.botID = botID
-        self.options = options
+        self.options.hMacKey = options.hMacKey
+        self.options.clientID = options.clientID
+        self.options.language = options.language
         
         // Load bot configuration
         self.loadBotConfiguration()
