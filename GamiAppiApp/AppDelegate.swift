@@ -16,15 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.'
-        GamiphySDK.shared.delegate = self
-        
-        var options = GamiphyBotOptions()
-        GamiphySDK.shared.setDebug(true) // choose false for producation env
-        options.hMacKey = "94c711455c8fabb3c3ffacace7711eda10be9d1147afa140872af60b026ebfca"
-        GamiphySDK.shared.initialize(botID: "5e550cb17686f0001299e853", options: options)
-        let user = GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co")
-        GamiphySDK.shared.authUser(user: user)
+        LoyaltyStation.initialize(config: Config(app: "5f71e34bdbaa0b0019df9c58", user: User(id: "test-id", firstName: "Riyad", lastName: "Yahya", hash: "237ccb1812cf2c893e341788921ec62515ca6d0507d7e4577055b25b794f831c"), agent: "floward"))
+
         return true
     }
 
@@ -44,26 +37,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-extension AppDelegate: GamiphySDKDelegate {
-    
-    func gamiphySDK(didAuthUser email: String) {
-        print(email)
+extension AppDelegate: LoyaltyStationDelegate {
+    public func onAuthTrigger(isSignUp: String) {
+        //Make your action here, you may start login activity
+        print("onAuthTrigger")
     }
-    
-    func gamiphySDK(failedToAuthUser email: String) {
-    }
-    
-    func gamiphySDKUserNotLoggedIn() {
-        var user = GamiphyUser(name: "Abdallah AbuSalah", email: "abdallah@gamiphy.co")
-        GamiphySDK.shared.authUser(user: user)
-    }
-    func gamiphySDK(didTriggerEvent name: String){
-        GamiphySDK.shared.markTaskDone(name: "openBugEvent")
-    }
-    
-    func gamiphySDK(didTriggerRedeem packageID: String, pointsToRedeem: Int, value: Double) {
-        print(GamiphySDK.shared.markRedeemDone(packageID: packageID, pointsToRedeem: pointsToRedeem))
-    }
-
 }
-

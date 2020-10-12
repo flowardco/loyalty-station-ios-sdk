@@ -8,26 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		03158788AFE340BDE63EABCDFCB86554 /* Pods-GamiAppiApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0820BC6940172425F2D46AA4972813D /* Pods-GamiAppiApp-dummy.m */; };
-		06B37773CE1D4D13FEE1BC7859C1263D /* GamiphyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE1ADEFFFE35F2701D18A4688C0E29 /* GamiphyUser.swift */; };
-		07F1202D3029964911B3104AB4FEB259 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADAF3A221F3EE6159579F82C18B9721 /* UIColor+Hex.swift */; };
+		06B37773CE1D4D13FEE1BC7859C1263D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE1ADEFFFE35F2701D18A4688C0E29 /* User.swift */; };
 		0A02AB3FAB22403A65087F02E5B5351A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0CF99E0B7E29CDE02DEE3599B0879C51 /* BotConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C822FFBAE2E164EF995D2C216E337 /* BotConfiguration.swift */; };
 		25D3E524FB577AF74492BAA9C25FCB4E /* Pods-GamiAppiApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA831808E0E2484CB2B0AD7C5B670192 /* Pods-GamiAppiApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		265DEECA40BFFC115137883EBC9E4DDD /* GamiphySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697C7680BA9CE1C3EF289CF96B9B676 /* GamiphySDK.swift */; };
+		265DEECA40BFFC115137883EBC9E4DDD /* LoyaltyStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697C7680BA9CE1C3EF289CF96B9B676 /* LoyaltyStation.swift */; };
 		2FC035643984BAB3349AC158827E1F79 /* GamiAppi.h in Headers */ = {isa = PBXBuildFile; fileRef = 892ADAFFA1D905A03704EC0AA89B8025 /* GamiAppi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C5C02339D03D8EB331D3CD083979518 /* GamiphyReferral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575F8391067E5E06B16B63278D642A30 /* GamiphyReferral.swift */; };
-		3D788858F02FA4B37D40F1854DB07470 /* String+Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44170C5245B78A5649AA465B552041 /* String+Encryption.swift */; };
-		4150B4F8E34FB4E30C3E68887F4E4BA6 /* BotStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C0C32EB58E7DF66CDB101CE6C155E /* BotStyle.swift */; };
 		65EC076160F5E5DFBCA85A2F8EC6A0FF /* Gamibot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2653C8FEAA83F4AEF77AF8BE0FF42C50 /* Gamibot-dummy.m */; };
-		69C2C0A8841A051B6EDBA8B818C7ACF1 /* AuthUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38DA85134C6189DC60DFDAFB26EF8CE /* AuthUserResponse.swift */; };
 		6FFE0708B129F55ABA8829FDBD684A13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		75B387B619A52D7F0967AF55D6FDCF73 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03597CF23DFFD658593B0736CEAF18 /* NetworkManager.swift */; };
 		95FFE1CCD4702567A4C6D5F80CCC9D26 /* Gamibot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D272004D016945C81F6F0A71A34C37F /* Gamibot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D2305E9ADEE5311E11B27286DEF65B1 /* BotLauncherStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9698BCA505DB6BC1D7B31958F6A513D /* BotLauncherStyle.swift */; };
-		AF775C5E2B765831B20790B0D3949F94 /* GamiphyBotOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AB8EA1447CB8420BE2A3817649CB4 /* GamiphyBotOptions.swift */; };
-		C86A749169434D28F1D1B6B3B7C1B4CA /* GamiphyBotButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B484B1FF3A4BD15D96123A352AA42D0 /* GamiphyBotButton.swift */; };
-		CCE4B0C2636B0F2BE1A05BF6F70D9E6A /* GamiphyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0A5D2C23C644ED852EC5F111BF751 /* GamiphyWebViewController.swift */; };
-		CDA79556275658EBFA4A7AE73A9C0285 /* UIButton+UrlImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA80217A82CFFD835D260A96842BF0 /* UIButton+UrlImage.swift */; };
+		AF775C5E2B765831B20790B0D3949F94 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AB8EA1447CB8420BE2A3817649CB4 /* Config.swift */; };
+		CCE4B0C2636B0F2BE1A05BF6F70D9E6A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0A5D2C23C644ED852EC5F111BF751 /* WebViewController.swift */; };
 		E9D78C584406B07870EA935E4EC2A498 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE461DB455FA2F57048FC9385D12588 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -43,43 +33,33 @@
 
 /* Begin PBXFileReference section */
 		04D5C7DEF9F6C36EBD890E4080776AD1 /* Gamibot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gamibot.modulemap; sourceTree = "<group>"; };
-		0B484B1FF3A4BD15D96123A352AA42D0 /* GamiphyBotButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GamiphyBotButton.swift; sourceTree = "<group>"; };
-		0D5235F00CC2077060007D29FECF1CAC /* Gamibot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gamibot.framework; path = Gamibot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10D0A5D2C23C644ED852EC5F111BF751 /* GamiphyWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GamiphyWebViewController.swift; path = GamiAppi/GamiphyWebViewController.swift; sourceTree = "<group>"; };
+		0D5235F00CC2077060007D29FECF1CAC /* Gamibot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gamibot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D0A5D2C23C644ED852EC5F111BF751 /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = GamiAppi/WebViewController.swift; sourceTree = "<group>"; };
 		11D96CD5E682BF162A16CEF6DDBB93BA /* Pods-GamiAppiApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GamiAppiApp.modulemap"; sourceTree = "<group>"; };
 		1D272004D016945C81F6F0A71A34C37F /* Gamibot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gamibot-umbrella.h"; sourceTree = "<group>"; };
-		1E44170C5245B78A5649AA465B552041 /* String+Encryption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Encryption.swift"; sourceTree = "<group>"; };
 		2653C8FEAA83F4AEF77AF8BE0FF42C50 /* Gamibot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gamibot-dummy.m"; sourceTree = "<group>"; };
-		2697C7680BA9CE1C3EF289CF96B9B676 /* GamiphySDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GamiphySDK.swift; path = GamiAppi/GamiphySDK.swift; sourceTree = "<group>"; };
-		2EBE1ADEFFFE35F2701D18A4688C0E29 /* GamiphyUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GamiphyUser.swift; sourceTree = "<group>"; };
+		2697C7680BA9CE1C3EF289CF96B9B676 /* LoyaltyStation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoyaltyStation.swift; path = GamiAppi/LoyaltyStation.swift; sourceTree = "<group>"; };
+		2EBE1ADEFFFE35F2701D18A4688C0E29 /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		328C0C32EB58E7DF66CDB101CE6C155E /* BotStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BotStyle.swift; sourceTree = "<group>"; };
-		3A6C822FFBAE2E164EF995D2C216E337 /* BotConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BotConfiguration.swift; path = GamiAppi/BotConfiguration.swift; sourceTree = "<group>"; };
-		3D7AB8EA1447CB8420BE2A3817649CB4 /* GamiphyBotOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GamiphyBotOptions.swift; sourceTree = "<group>"; };
-		529FD5E29C508F928FD4B424AF5048EA /* Pods_GamiAppiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GamiAppiApp.framework; path = "Pods-GamiAppiApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		575F8391067E5E06B16B63278D642A30 /* GamiphyReferral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GamiphyReferral.swift; sourceTree = "<group>"; };
-		67B8DF0E2F71DFB40855EE138001B74D /* Gamibot.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Gamibot.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D7AB8EA1447CB8420BE2A3817649CB4 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		529FD5E29C508F928FD4B424AF5048EA /* Pods_GamiAppiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamiAppiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B8DF0E2F71DFB40855EE138001B74D /* Gamibot.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Gamibot.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6B26D2E128B3E4BE2A1BB41990F831BB /* Gamibot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gamibot-prefix.pch"; sourceTree = "<group>"; };
 		6D07B5148E87C0BEF007429F7A5CB789 /* Pods-GamiAppiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamiAppiApp.release.xcconfig"; sourceTree = "<group>"; };
 		7B8F970BEDFF5CA5BA6FA29439496836 /* Pods-GamiAppiApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GamiAppiApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BE461DB455FA2F57048FC9385D12588 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = GamiAppi/Media.xcassets; sourceTree = "<group>"; };
 		7C1E1048252AE78AF876692F34F29484 /* Gamibot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gamibot-Info.plist"; sourceTree = "<group>"; };
 		7D6A8A23ABF6ED261937E7046D8EB7A5 /* Gamibot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gamibot.debug.xcconfig; sourceTree = "<group>"; };
-		85884A2E26C4E0AB3C43AA1F8EC24FD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		86DA80217A82CFFD835D260A96842BF0 /* UIButton+UrlImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+UrlImage.swift"; sourceTree = "<group>"; };
+		85884A2E26C4E0AB3C43AA1F8EC24FD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		892ADAFFA1D905A03704EC0AA89B8025 /* GamiAppi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GamiAppi.h; path = GamiAppi/GamiAppi.h; sourceTree = "<group>"; };
-		89F47A350A06E53A8A57A748D15AC849 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9A03597CF23DFFD658593B0736CEAF18 /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = GamiAppi/NetworkManager.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89F47A350A06E53A8A57A748D15AC849 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FCF43DF85FA8AFA6C40849342213998 /* Pods-GamiAppiApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamiAppiApp-frameworks.sh"; sourceTree = "<group>"; };
 		A5CF65B8496C68831D39649336D1FD41 /* Gamibot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gamibot.release.xcconfig; sourceTree = "<group>"; };
-		B9698BCA505DB6BC1D7B31958F6A513D /* BotLauncherStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BotLauncherStyle.swift; sourceTree = "<group>"; };
 		CA831808E0E2484CB2B0AD7C5B670192 /* Pods-GamiAppiApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GamiAppiApp-umbrella.h"; sourceTree = "<group>"; };
-		D38DA85134C6189DC60DFDAFB26EF8CE /* AuthUserResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthUserResponse.swift; path = GamiAppi/AuthUserResponse.swift; sourceTree = "<group>"; };
 		D73EC82590655F2367F3C957BCBD57EF /* Pods-GamiAppiApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GamiAppiApp-Info.plist"; sourceTree = "<group>"; };
 		ECCD52FD14DA101CB38367B80722AB7D /* Pods-GamiAppiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamiAppiApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F0820BC6940172425F2D46AA4972813D /* Pods-GamiAppiApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GamiAppiApp-dummy.m"; sourceTree = "<group>"; };
-		FADAF3A221F3EE6159579F82C18B9721 /* UIColor+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		FF6CC5F087793FAF5DBE03F9CDB4567E /* Pods-GamiAppiApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GamiAppiApp-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,17 +83,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020D5A58CAA142B8D1C66BD395E519F4 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				1E44170C5245B78A5649AA465B552041 /* String+Encryption.swift */,
-				86DA80217A82CFFD835D260A96842BF0 /* UIButton+UrlImage.swift */,
-				FADAF3A221F3EE6159579F82C18B9721 /* UIColor+Hex.swift */,
-			);
-			name = Extensions;
-			path = GamiAppi/Extensions;
-			sourceTree = "<group>";
-		};
 		0DE4527C8A2C8B92678C316448A7D3A9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,13 +104,9 @@
 		137952BFF817ACE9654AECC17E672DAA /* Gamibot */ = {
 			isa = PBXGroup;
 			children = (
-				D38DA85134C6189DC60DFDAFB26EF8CE /* AuthUserResponse.swift */,
-				3A6C822FFBAE2E164EF995D2C216E337 /* BotConfiguration.swift */,
 				892ADAFFA1D905A03704EC0AA89B8025 /* GamiAppi.h */,
-				2697C7680BA9CE1C3EF289CF96B9B676 /* GamiphySDK.swift */,
-				10D0A5D2C23C644ED852EC5F111BF751 /* GamiphyWebViewController.swift */,
-				9A03597CF23DFFD658593B0736CEAF18 /* NetworkManager.swift */,
-				020D5A58CAA142B8D1C66BD395E519F4 /* Extensions */,
+				2697C7680BA9CE1C3EF289CF96B9B676 /* LoyaltyStation.swift */,
+				10D0A5D2C23C644ED852EC5F111BF751 /* WebViewController.swift */,
 				8DE869EF6469E95EA8B1E7CE9CA3B739 /* Models */,
 				0DE4527C8A2C8B92678C316448A7D3A9 /* Pod */,
 				11776AE6C3004DFDD7B8B7775BFE22A6 /* Resources */,
@@ -195,12 +160,8 @@
 		8DE869EF6469E95EA8B1E7CE9CA3B739 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B9698BCA505DB6BC1D7B31958F6A513D /* BotLauncherStyle.swift */,
-				328C0C32EB58E7DF66CDB101CE6C155E /* BotStyle.swift */,
-				0B484B1FF3A4BD15D96123A352AA42D0 /* GamiphyBotButton.swift */,
-				3D7AB8EA1447CB8420BE2A3817649CB4 /* GamiphyBotOptions.swift */,
-				575F8391067E5E06B16B63278D642A30 /* GamiphyReferral.swift */,
-				2EBE1ADEFFFE35F2701D18A4688C0E29 /* GamiphyUser.swift */,
+				3D7AB8EA1447CB8420BE2A3817649CB4 /* Config.swift */,
+				2EBE1ADEFFFE35F2701D18A4688C0E29 /* User.swift */,
 			);
 			name = Models;
 			path = GamiAppi/Models;
@@ -317,6 +278,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					1CFB53B1B862C36D3670A454705D7703 = {
+						LastSwiftMigration = 1170;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -368,21 +334,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C2C0A8841A051B6EDBA8B818C7ACF1 /* AuthUserResponse.swift in Sources */,
-				0CF99E0B7E29CDE02DEE3599B0879C51 /* BotConfiguration.swift in Sources */,
-				9D2305E9ADEE5311E11B27286DEF65B1 /* BotLauncherStyle.swift in Sources */,
-				4150B4F8E34FB4E30C3E68887F4E4BA6 /* BotStyle.swift in Sources */,
 				65EC076160F5E5DFBCA85A2F8EC6A0FF /* Gamibot-dummy.m in Sources */,
-				C86A749169434D28F1D1B6B3B7C1B4CA /* GamiphyBotButton.swift in Sources */,
-				AF775C5E2B765831B20790B0D3949F94 /* GamiphyBotOptions.swift in Sources */,
-				3C5C02339D03D8EB331D3CD083979518 /* GamiphyReferral.swift in Sources */,
-				265DEECA40BFFC115137883EBC9E4DDD /* GamiphySDK.swift in Sources */,
-				06B37773CE1D4D13FEE1BC7859C1263D /* GamiphyUser.swift in Sources */,
-				CCE4B0C2636B0F2BE1A05BF6F70D9E6A /* GamiphyWebViewController.swift in Sources */,
-				75B387B619A52D7F0967AF55D6FDCF73 /* NetworkManager.swift in Sources */,
-				3D788858F02FA4B37D40F1854DB07470 /* String+Encryption.swift in Sources */,
-				CDA79556275658EBFA4A7AE73A9C0285 /* UIButton+UrlImage.swift in Sources */,
-				07F1202D3029964911B3104AB4FEB259 /* UIColor+Hex.swift in Sources */,
+				AF775C5E2B765831B20790B0D3949F94 /* Config.swift in Sources */,
+				265DEECA40BFFC115137883EBC9E4DDD /* LoyaltyStation.swift in Sources */,
+				06B37773CE1D4D13FEE1BC7859C1263D /* User.swift in Sources */,
+				CCE4B0C2636B0F2BE1A05BF6F70D9E6A /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +583,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -662,7 +618,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
