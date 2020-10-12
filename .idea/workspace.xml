@@ -32,29 +32,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GamiAppi/Models/Config.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamiAppi/Models/User.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamiAppi/WebViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/AuthUserResponse.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/BotConfiguration.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/GamiphySDK.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi/LoyaltyStation.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/GamiphyWebViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/Models/BotLauncherStyle.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/Models/BotStyle.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/Models/GamiphyBotButton.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/Models/GamiphyBotOptions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/Models/GamiphyReferral.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/Models/GamiphyUser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/NetworkManager.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppiApp/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppiApp/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppiApp/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/ViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamibot.podspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="Support new loyalty station">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/Gamibot.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/Gamibot.podspec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +59,7 @@
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="GamiAppi" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -104,8 +85,16 @@
       <workItem from="1602151199083" duration="3456000" />
       <workItem from="1602157644504" duration="7189000" />
       <workItem from="1602483677394" duration="790000" />
-      <workItem from="1602487194766" duration="10209000" />
+      <workItem from="1602487194766" duration="11209000" />
     </task>
+    <task id="LOCAL-00001" summary="Support new loyalty station">
+      <created>1602513992036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602513992036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +111,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Support new loyalty station" />
+    <option name="LAST_COMMIT_MESSAGE" value="Support new loyalty station" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2213" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1602152997167">
@@ -208,5 +201,9 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="341" y="147" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.808@0.23.1440.808" timestamp="1602486701741" />
+    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1602515334694">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1602515334694" />
   </component>
 </project>
