@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:abdallah" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:abdallah" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="new pod">
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/Gamibot.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/LoyaltyStation.podspec.json" afterDir="false" />
+    <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="Fix version">
+      <change afterPath="$PROJECT_DIR$/LoyaltyStation.podspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/LoyaltyStation.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/LoyaltyStation.podspec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +59,7 @@
       <workItem from="1602151199083" duration="3456000" />
       <workItem from="1602157644504" duration="7189000" />
       <workItem from="1602483677394" duration="790000" />
-      <workItem from="1602487194766" duration="11304000" />
+      <workItem from="1602487194766" duration="11733000" />
     </task>
     <task id="LOCAL-00001" summary="Support new loyalty station">
       <created>1602513992036</created>
@@ -100,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602515389464</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix version">
+      <created>1602515600317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602515600317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +91,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -116,12 +123,18 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Support new loyalty station" />
     <MESSAGE value="new pod" />
-    <option name="LAST_COMMIT_MESSAGE" value="new pod" />
+    <MESSAGE value="Fix version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2213" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1602152997167">
@@ -191,10 +204,10 @@
     </state>
     <state x="2130" y="290" width="540" height="524" key="StructurePopup/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602152326345" />
     <state x="518" y="227" width="519" height="401" key="StructurePopup/0.23.1440.808@0.23.1440.808" timestamp="1602160846931" />
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1602515392573">
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1602515837978">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1602515392573" />
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1602515837978" />
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602502535051">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -212,6 +225,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="341" y="147" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.808@0.23.1440.808" timestamp="1602486701741" />
+    <state x="472" y="278" key="git4idea.ui.GitTagDialog" timestamp="1602515620007">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="472" y="278" key="git4idea.ui.GitTagDialog/0.23.1440.808@0.23.1440.808" timestamp="1602515620007" />
     <state x="385" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1602515334694">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
