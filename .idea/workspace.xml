@@ -32,9 +32,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="Support new loyalty station">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/Gamibot.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/Gamibot.podspec.json" afterDir="false" />
+    <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="new pod">
+      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/Gamibot.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/LoyaltyStation.podspec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1602151199083" duration="3456000" />
       <workItem from="1602157644504" duration="7189000" />
       <workItem from="1602483677394" duration="790000" />
-      <workItem from="1602487194766" duration="11209000" />
+      <workItem from="1602487194766" duration="11304000" />
     </task>
     <task id="LOCAL-00001" summary="Support new loyalty station">
       <created>1602513992036</created>
@@ -94,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602513992036</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new pod">
+      <created>1602515389464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602515389464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Support new loyalty station" />
-    <option name="LAST_COMMIT_MESSAGE" value="Support new loyalty station" />
+    <MESSAGE value="new pod" />
+    <option name="LAST_COMMIT_MESSAGE" value="new pod" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2213" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1602152997167">
@@ -184,6 +191,10 @@
     </state>
     <state x="2130" y="290" width="540" height="524" key="StructurePopup/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602152326345" />
     <state x="518" y="227" width="519" height="401" key="StructurePopup/0.23.1440.808@0.23.1440.808" timestamp="1602160846931" />
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1602515392573">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1602515392573" />
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602502535051">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -192,11 +203,11 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.808@0.23.1440.808" timestamp="1602487316474" />
-    <state x="500" y="146" width="658" height="562" key="find.popup" timestamp="1602504527010">
+    <state x="500" y="146" width="658" height="562" key="find.popup" timestamp="1602515452907">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="2107" y="184" width="656" height="735" key="find.popup/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602152816735" />
-    <state x="500" y="146" width="658" height="562" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1602504527010" />
+    <state x="500" y="146" width="658" height="562" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1602515452907" />
     <state x="341" y="147" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602486701741">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
