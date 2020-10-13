@@ -6,44 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="Fix version">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi.xcodeproj/xcuserdata/riyad.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcodeproj/xcuserdata/riyad.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamiAppi.xcworkspace/xcuserdata/riyad.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcworkspace/xcuserdata/riyad.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/0.0.1/GamiAppi.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/LoyaltyStation.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppiApp/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppiApp/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/ViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/GamiAppi.podspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/LoyaltyStation.podspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Abdallah.xcuserdatad/xcschemes/Gamibot.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Abdallah.xcuserdatad/xcschemes/Pods-GamiAppiApp.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Abdallah.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/riyad.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-acknowledgements.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks-Debug-input-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks-Debug-output-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks-Release-input-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks-Release-output-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoyaltyStation.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/LoyaltyStation.podspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +33,7 @@
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="GamiAppi" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -95,6 +61,7 @@
       <workItem from="1602157644504" duration="7189000" />
       <workItem from="1602483677394" duration="790000" />
       <workItem from="1602487194766" duration="11828000" />
+      <workItem from="1602578693049" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="Support new loyalty station">
       <created>1602513992036</created>
