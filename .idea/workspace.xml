@@ -6,14 +6,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="Fix version">
-      <change beforePath="$PROJECT_DIR$/LoyaltyStation.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoyaltyStation.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi.xcodeproj/xcuserdata/riyad.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcodeproj/xcuserdata/riyad.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi.xcworkspace/xcuserdata/riyad.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcworkspace/xcuserdata/riyad.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi/0.0.1/GamiAppi.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/LoyaltyStation.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppiApp/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppiApp/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/GamiAppi.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/LoyaltyStation.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Abdallah.xcuserdatad/xcschemes/Gamibot.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Abdallah.xcuserdatad/xcschemes/Pods-GamiAppiApp.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Abdallah.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/riyad.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Gamibot/Gamibot.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks-Debug-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks-Debug-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks-Release-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks-Release-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.release.xcconfig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_8C1E9B53-BC59-4F75-9EAC-9A4BD961D7E3" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_iosmac_x86_64" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -150,9 +187,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.808@0.23.1440.808" timestamp="1602493156735" />
-    <state x="100" y="123" width="1240" height="608" key="DiffContextDialog" timestamp="1602505496316">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="100" y="111" width="1240" height="608" key="DiffContextDialog" timestamp="1602574700251">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="100" y="111" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1602574700251" />
     <state x="100" y="123" width="1240" height="608" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1602505496316" />
     <state width="1398" height="290" key="GridCell.Tab.0.bottom" timestamp="1602492840694">
       <screen x="0" y="23" width="1440" height="808" />
@@ -194,9 +232,10 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="600" height="400" key="NewXcodeProjectWizard/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602153100061" />
-    <state x="559" y="219" key="RollbackChangesDialog" timestamp="1602502528027">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="559" y="218" key="RollbackChangesDialog" timestamp="1602575602314">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="559" y="218" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1602575602314" />
     <state x="2185" y="279" key="RollbackChangesDialog/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602157370236" />
     <state x="559" y="219" key="RollbackChangesDialog/0.23.1440.808@0.23.1440.808" timestamp="1602502528027" />
     <state x="0" y="23" width="1349" height="808" key="SettingsEditor" timestamp="1602493134428">
@@ -209,9 +248,10 @@
     </state>
     <state x="2130" y="290" width="540" height="524" key="StructurePopup/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602152326345" />
     <state x="518" y="227" width="519" height="401" key="StructurePopup/0.23.1440.808@0.23.1440.808" timestamp="1602160846931" />
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1602515918504">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="320" y="146" key="Vcs.Push.Dialog.v2" timestamp="1602575194459">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="146" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1602575194459" />
     <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1602515918504" />
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602502535051">
       <screen x="0" y="23" width="1440" height="808" />
@@ -221,9 +261,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.808@0.23.1440.808" timestamp="1602487316474" />
-    <state x="500" y="146" width="658" height="562" key="find.popup" timestamp="1602515452907">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="500" y="137" width="732" height="626" key="find.popup" timestamp="1602574789734">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="500" y="137" width="732" height="626" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1602574789734" />
     <state x="2107" y="184" width="656" height="735" key="find.popup/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602152816735" />
     <state x="500" y="146" width="658" height="562" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1602515452907" />
     <state x="341" y="147" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602486701741">
@@ -234,9 +275,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="472" y="278" key="git4idea.ui.GitTagDialog/0.23.1440.808@0.23.1440.808" timestamp="1602515620007" />
-    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1602515334694">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="385" y="147" width="670" height="753" key="search.everywhere.popup" timestamp="1602575575780">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="147" width="670" height="753" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1602575575780" />
     <state x="385" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1602515334694" />
   </component>
 </project>

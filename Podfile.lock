@@ -1,16 +1,16 @@
 PODS:
-  - Gamibot (2.0.2)
+  - LoyaltyStation (4.1.1)
 
 DEPENDENCIES:
-  - Gamibot (from `.`)
+  - LoyaltyStation (from `./LoyaltyStation.podspec`)
 
 EXTERNAL SOURCES:
-  Gamibot:
-    :path: "."
+  LoyaltyStation:
+    :path: "./LoyaltyStation.podspec"
 
 SPEC CHECKSUMS:
-  Gamibot: 00c6d459bd09cd6fc9c82ab98a218d62b5f8c608
+  LoyaltyStation: e46e0a67bc40a9f76052db6d74ed4f5098c84d36
 
-PODFILE CHECKSUM: 0395bc63b2f8504df29e9f41e675e5bcf3c5e797
+PODFILE CHECKSUM: 5297789b0cea6661d773b39feb29d2d0447d7b13
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

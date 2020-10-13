@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		066A6648A313AA20906FEF04 /* Pods_GamiAppiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F827383D62FFEC8F3B53DEE /* Pods_GamiAppiApp.framework */; };
+		678046E9950FC1C1C0E403CE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 67804B67BEBC70BD31BD69B2 /* .gitignore */; };
+		67804B5DB628C41B0D666638 /* LoyaltyStation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 67804B8F88E3B8639303B23F /* LoyaltyStation.podspec */; };
 		B2DCD51D241F8AED004CC22D /* GamiAppi.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DCD51B241F8AED004CC22D /* GamiAppi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2DCD535241F8B88004CC22D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD523241F8B87004CC22D /* WebViewController.swift */; };
 		B2DCD538241F8B88004CC22D /* LoyaltyStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD526241F8B87004CC22D /* LoyaltyStation.swift */; };
@@ -23,9 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D56D91CD350465DB96F2FE1 /* Pods-GamiAppiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamiAppiApp.release.xcconfig"; path = "Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.release.xcconfig"; sourceTree = "<group>"; };
+		1A41E7E6D7AD22933C74B951 /* Pods-GamiAppiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamiAppiApp.debug.xcconfig"; path = "Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1F827383D62FFEC8F3B53DEE /* Pods_GamiAppiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamiAppiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72B523E9A0620344CFB293CD /* Pods-GamiAppiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamiAppiApp.debug.xcconfig"; path = "Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		67804B67BEBC70BD31BD69B2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		67804B8F88E3B8639303B23F /* LoyaltyStation.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = LoyaltyStation.podspec; sourceTree = "<group>"; };
+		969AD0E85FFDFBD0A943FFEB /* Pods-GamiAppiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamiAppiApp.release.xcconfig"; path = "Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.release.xcconfig"; sourceTree = "<group>"; };
 		B2DCD518241F8AED004CC22D /* GamiAppi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GamiAppi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DCD51B241F8AED004CC22D /* GamiAppi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamiAppi.h; sourceTree = "<group>"; };
 		B2DCD51C241F8AED004CC22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,12 +68,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C2D6B061196510D7E811634 /* Pods */ = {
+		97BFF15823A11ED366B3759D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				72B523E9A0620344CFB293CD /* Pods-GamiAppiApp.debug.xcconfig */,
-				1D56D91CD350465DB96F2FE1 /* Pods-GamiAppiApp.release.xcconfig */,
+				1A41E7E6D7AD22933C74B951 /* Pods-GamiAppiApp.debug.xcconfig */,
+				969AD0E85FFDFBD0A943FFEB /* Pods-GamiAppiApp.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,8 +84,10 @@
 				B2DCD51A241F8AED004CC22D /* GamiAppi */,
 				B2DCD54A241F8F01004CC22D /* GamiAppiApp */,
 				B2DCD519241F8AED004CC22D /* Products */,
-				9C2D6B061196510D7E811634 /* Pods */,
 				C3F9248FFCB1BC9706A88609 /* Frameworks */,
+				67804B8F88E3B8639303B23F /* LoyaltyStation.podspec */,
+				67804B67BEBC70BD31BD69B2 /* .gitignore */,
+				97BFF15823A11ED366B3759D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,7 +185,7 @@
 				B2DCD545241F8F01004CC22D /* Sources */,
 				B2DCD546241F8F01004CC22D /* Frameworks */,
 				B2DCD547241F8F01004CC22D /* Resources */,
-				45B9B5DA9FF3B9913EED9800 /* [CP] Embed Pods Frameworks */,
+				5A55850AD9095E53A7376A39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2DCD539241F8B88004CC22D /* Media.xcassets in Resources */,
+				67804B5DB628C41B0D666638 /* LoyaltyStation.podspec in Resources */,
+				678046E9950FC1C1C0E403CE /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +280,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		45B9B5DA9FF3B9913EED9800 /* [CP] Embed Pods Frameworks */ = {
+		5A55850AD9095E53A7376A39 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -505,7 +514,7 @@
 		};
 		B2DCD55B241F8F03004CC22D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B523E9A0620344CFB293CD /* Pods-GamiAppiApp.debug.xcconfig */;
+			baseConfigurationReference = 1A41E7E6D7AD22933C74B951 /* Pods-GamiAppiApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,7 +532,7 @@
 		};
 		B2DCD55C241F8F03004CC22D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D56D91CD350465DB96F2FE1 /* Pods-GamiAppiApp.release.xcconfig */;
+			baseConfigurationReference = 969AD0E85FFDFBD0A943FFEB /* Pods-GamiAppiApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

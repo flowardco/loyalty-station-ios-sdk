@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Gamibot
+import LoyaltyStation
 
 class ViewController: UIViewController {
 

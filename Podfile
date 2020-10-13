@@ -1,5 +1,5 @@
 use_frameworks!
 target 'GamiAppiApp' do
    platform :ios, '12.1'
-   pod 'Gamibot', :path => '.'
+   pod 'LoyaltyStation', :path => './LoyaltyStation.podspec'
 end

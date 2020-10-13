@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Gamibot
+import LoyaltyStation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

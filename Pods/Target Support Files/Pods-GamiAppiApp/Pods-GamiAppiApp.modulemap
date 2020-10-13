@@ -1,6 +1,0 @@
-framework module Pods_GamiAppiApp {
-  umbrella header "Pods-GamiAppiApp-umbrella.h"
-
-  export *
-  module * { export * }
-}
