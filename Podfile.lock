@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./LoyaltyStation.podspec"
 
 SPEC CHECKSUMS:
-  LoyaltyStation: e46e0a67bc40a9f76052db6d74ed4f5098c84d36
+  LoyaltyStation: d6c5eb32ca98a4f20c6c615fa8b7d8085bbea4af
 
 PODFILE CHECKSUM: 5297789b0cea6661d773b39feb29d2d0447d7b13
 

@@ -6,16 +6,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="Fix version">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi.xcworkspace/xcuserdata/riyad.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcworkspace/xcuserdata/riyad.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi/Extensions/String+Encryption.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi/Extensions/UIButton+UrlImage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi/Extensions/UIColor+Hex.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi/Media.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi/Media.xcassets/BackImage.imageset/BackImage.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi/Media.xcassets/BackImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamiAppi/Media.xcassets/Contents.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/LoyaltyStation.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/LoyaltyStation.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_iosmac_x86_64" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_8C1E9B53-BC59-4F75-9EAC-9A4BD961D7E3" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -62,6 +71,7 @@
       <workItem from="1602483677394" duration="790000" />
       <workItem from="1602487194766" duration="11828000" />
       <workItem from="1602578693049" duration="402000" />
+      <workItem from="1602606040792" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="Support new loyalty station">
       <created>1602513992036</created>
@@ -150,33 +160,38 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2213" y="248" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602152997167" />
-    <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602493156735">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="458" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602606122845">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="458" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1602606122845" />
     <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.808@0.23.1440.808" timestamp="1602493156735" />
     <state x="100" y="111" width="1240" height="608" key="DiffContextDialog" timestamp="1602574700251">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="111" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1602574700251" />
     <state x="100" y="123" width="1240" height="608" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1602505496316" />
-    <state width="1398" height="290" key="GridCell.Tab.0.bottom" timestamp="1602492840694">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom" timestamp="1602606218992">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602606218992" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602157390039" />
     <state width="1398" height="290" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1602492840694" />
-    <state width="1398" height="290" key="GridCell.Tab.0.center" timestamp="1602492840694">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="340" key="GridCell.Tab.0.center" timestamp="1602606218988">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="340" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602606218988" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602157390038" />
     <state width="1398" height="290" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1602492840694" />
-    <state width="1398" height="290" key="GridCell.Tab.0.left" timestamp="1602492840694">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="340" key="GridCell.Tab.0.left" timestamp="1602606218987">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="340" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602606218987" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602157390038" />
     <state width="1398" height="290" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1602492840694" />
-    <state width="1398" height="290" key="GridCell.Tab.0.right" timestamp="1602492840694">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right" timestamp="1602606218990">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="340" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602606218990" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602157390039" />
     <state width="1398" height="290" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1602492840694" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1602487493233">

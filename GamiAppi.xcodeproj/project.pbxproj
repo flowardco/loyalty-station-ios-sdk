@@ -13,7 +13,6 @@
 		B2DCD51D241F8AED004CC22D /* GamiAppi.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DCD51B241F8AED004CC22D /* GamiAppi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2DCD535241F8B88004CC22D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD523241F8B87004CC22D /* WebViewController.swift */; };
 		B2DCD538241F8B88004CC22D /* LoyaltyStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD526241F8B87004CC22D /* LoyaltyStation.swift */; };
-		B2DCD539241F8B88004CC22D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DCD527241F8B87004CC22D /* Media.xcassets */; };
 		B2DCD53D241F8B88004CC22D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD52C241F8B88004CC22D /* Config.swift */; };
 		B2DCD53F241F8B88004CC22D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD52E241F8B88004CC22D /* User.swift */; };
 		B2DCD54C241F8F01004CC22D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD54B241F8F01004CC22D /* AppDelegate.swift */; };
@@ -36,7 +35,6 @@
 		B2DCD523241F8B87004CC22D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B2DCD524241F8B87004CC22D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../gamiphy-gamibot-ios-sdk/Gamiphy/Info.plist"; sourceTree = "<group>"; };
 		B2DCD526241F8B87004CC22D /* LoyaltyStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoyaltyStation.swift; sourceTree = "<group>"; };
-		B2DCD527241F8B87004CC22D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		B2DCD52C241F8B88004CC22D /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B2DCD52E241F8B88004CC22D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B2DCD549241F8F01004CC22D /* GamiAppiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamiAppiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +104,6 @@
 				B2DCD526241F8B87004CC22D /* LoyaltyStation.swift */,
 				B2DCD523241F8B87004CC22D /* WebViewController.swift */,
 				B2DCD524241F8B87004CC22D /* Info.plist */,
-				B2DCD527241F8B87004CC22D /* Media.xcassets */,
 				B2DCD52A241F8B88004CC22D /* Models */,
 				B2DCD51B241F8AED004CC22D /* GamiAppi.h */,
 				B2DCD51C241F8AED004CC22D /* Info.plist */,
@@ -239,7 +236,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2DCD539241F8B88004CC22D /* Media.xcassets in Resources */,
 				67804B5DB628C41B0D666638 /* LoyaltyStation.podspec in Resources */,
 				678046E9950FC1C1C0E403CE /* .gitignore in Resources */,
 			);

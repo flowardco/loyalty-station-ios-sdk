@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "LoyaltyStation"
-  s.version       = "4.1.1"
+  s.version       = "4.2.0"
   s.summary       = "Loyalty Station"
   s.description   = "Loyalty Station SDK"
   s.homepage      = "https://github.com/gamiphy/loyalty-station-ios-sdk.git"
@@ -14,7 +14,4 @@ Pod::Spec.new do |s|
   }
   s.source_files        = "GamiAppi/**/*.{h,m,swift}"
   s.public_header_files = "GamiAppi/**/*.h"
-  s.resources                 = [
-    "GamiAppi/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-    ]
 end
