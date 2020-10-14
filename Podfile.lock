@@ -1,5 +1,5 @@
 PODS:
-  - LoyaltyStation (4.1.1)
+  - LoyaltyStation (4.2.0)
 
 DEPENDENCIES:
   - LoyaltyStation (from `./LoyaltyStation.podspec`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./LoyaltyStation.podspec"
 
 SPEC CHECKSUMS:
-  LoyaltyStation: d6c5eb32ca98a4f20c6c615fa8b7d8085bbea4af
+  LoyaltyStation: f48d9c71c0694eb4ed56a6b25379650e61fa1d02
 
 PODFILE CHECKSUM: 5297789b0cea6661d773b39feb29d2d0447d7b13
 

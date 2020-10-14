@@ -87,6 +87,15 @@ public class LoyaltyStation {
     public static func close() {
         webViewController?.dismiss(animated: true, completion: nil)
     }
+    
+    /**
+        Login to the loyalty station
+     */
+    public static func login(user: User) {
+        self.user = user;
+        
+        webViewController?.callLoginMethod(user: user)
+    }
 }
 
 /// Gamiphy SDK Delegate

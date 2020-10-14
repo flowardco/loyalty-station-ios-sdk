@@ -27,7 +27,7 @@
 		1A41E7E6D7AD22933C74B951 /* Pods-GamiAppiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamiAppiApp.debug.xcconfig"; path = "Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1F827383D62FFEC8F3B53DEE /* Pods_GamiAppiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamiAppiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67804B67BEBC70BD31BD69B2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
-		67804B8F88E3B8639303B23F /* LoyaltyStation.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = LoyaltyStation.podspec; sourceTree = "<group>"; };
+		67804B8F88E3B8639303B23F /* LoyaltyStation.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = LoyaltyStation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		969AD0E85FFDFBD0A943FFEB /* Pods-GamiAppiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamiAppiApp.release.xcconfig"; path = "Target Support Files/Pods-GamiAppiApp/Pods-GamiAppiApp.release.xcconfig"; sourceTree = "<group>"; };
 		B2DCD518241F8AED004CC22D /* GamiAppi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GamiAppi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DCD51B241F8AED004CC22D /* GamiAppi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamiAppi.h; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 				1A41E7E6D7AD22933C74B951 /* Pods-GamiAppiApp.debug.xcconfig */,
 				969AD0E85FFDFBD0A943FFEB /* Pods-GamiAppiApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

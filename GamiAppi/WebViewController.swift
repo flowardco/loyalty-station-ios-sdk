@@ -83,7 +83,7 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
         if #available(iOS 11, *) {
             self.webView.topAnchor.constraint(equalToSystemSpacingBelow: self.view.safeAreaLayoutGuide.topAnchor, multiplier: 1.0).isActive = true
         } else {
-            self.webView.topAnchor.constraint(equalTo: self.topLayoutGuide.bottomAnchor).isActive = true
+            self.webView.topAnchor.constraint(equalTo: self.topLayoutGuide.topAnchor).isActive = true
         }
 
         // Setup web view
@@ -135,7 +135,7 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
         self.loadingView.isHidden = !show
     }
 
-    func sendInitAction() {
+    func callInitMethod() {
         do {
             let config = """
                          app: '\(LoyaltyStation.appId!)',
@@ -163,6 +163,21 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
                                                 window.Gamiphy.init({
                                                 \(config)
                                                 })
+                                                """,
+                        completionHandler: nil
+                )
+            }
+        } catch {print(error)}
+    }
+    
+    func callLoginMethod(user: User) {
+        do {
+            let userData = try JSONEncoder().encode(user);
+            let userDataString = String(data: userData, encoding: .utf8);
+            
+            if(self.webView != nil) {
+                self.webView.evaluateJavaScript("""
+                                                window.Gamiphy.login({user: \(userDataString!)})
                                                 """,
                         completionHandler: nil
                 )
@@ -236,6 +251,6 @@ extension WebViewController: WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         self.showHideLoadingView(false);
 
-        self.sendInitAction()
+        self.callInitMethod()
     }
 }
