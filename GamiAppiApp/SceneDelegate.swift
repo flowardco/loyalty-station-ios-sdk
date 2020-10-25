@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  GamiAppiApp
-//
-//  Created by Abdallah on 3/16/20.
-//  Copyright © 2020 Abdallah. All rights reserved.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

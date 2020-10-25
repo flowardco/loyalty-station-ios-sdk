@@ -26,17 +26,13 @@ Gamiphy SDK needs to be initialized in Application class, you can do that by cal
 you can get after you signup for an account at Gamiphy. Kindly note the initilize method below. 
 
 ```swift
-    LoyaltyStation.initialize(
-      config: Config(
-        app: <appId>, 
-        user: User(
-          id: <userId>, 
-          firstName: <userFirstName>, 
-          lastName: <userLastName>, 
-          hash: <userHash>
-        )
-      )
-    )
+    LoyaltyStation
+        .setApp(app: String?)
+        .setUser(user: User(id: String, firstName: String, lastName: String, hash: String, country: String?))
+        .setAgent(agent: String)
+        .setLanguage(language: String)
+        .setSandbox(sandbox: Bool // set true for development)
+        .initialize()
 ```
 To open the bot, use the following line.
 ```swift

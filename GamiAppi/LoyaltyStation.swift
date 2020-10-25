@@ -1,47 +1,46 @@
-//
-//  LoyaltyStation.swift
-//  GamiphyCode
-//
-//  Created by Mohammad Nabulsi on 5/15/19.
-//  Copyright © 2019 Mohammad Nabulsi. All rights reserved.
-//
-
 import Foundation
 import UIKit
 
-/// Gamiphy SDK
+/**
+ * Gamiphy Loyalty Station sdk
+ */
 public class LoyaltyStation {
+    /** Loyalty station app id **/
+    internal var app: String? = nil
 
-    static var appId: String?
-    static var user: User?
-    static var agent: String?
-    //TODO to handle to be more general
-    static var environment: Environments = Environments.staging
-    
-    /// Notifications
-    enum Notifications {
-        static let didUpdateBotConfiguration    = NSNotification.Name.init("didUpdateBotConfiguration")
-    }
-    
-    /// Bot view controller
-    private static var webViewController: WebViewController?
-    
-    /// Delegate
+    /** Logged in user data **/
+    internal var user: User? = nil
+
+    /** Gamiphy agent key **/
+    internal var agent: String? = nil
+
+    /** Preferable language **/
+    internal var language: String? = nil
+
+    /** Use sandbox **/
+    internal var sandbox: Bool = false
+
+    /** webview controller **/
+    private var webViewController: WebViewController?
+
+    /** Loyalty station delegate **/
     public static weak var delegate: LoyaltyStationDelegate?
 
-    private static func getDomain(environment: Environments) -> String {
-        switch environment {
-        case Environments.dev:
-            return "https://static-dev.gamiphy.co"
-        case Environments.staging:
+    /** Loyalty station sdk instance **/
+    public static var instance: LoyaltyStation = LoyaltyStation()
+
+    /** Get loyalty station webview domain **/
+    private func getDomain() -> String {
+        if (self.sandbox) {
             return "https://static-staging.gamiphy.co"
-        case Environments.prod:
+        } else {
             return "https://static.gamiphy.co"
         }
     }
 
-    private static func getPath(agent: String?) -> String {
-        switch agent {
+    /** Get loyalty station webview path **/
+    private func getPath() -> String {
+        switch self.agent {
         case "floward":
             return "/sdk/custom/floward/index.html"
         default:
@@ -49,8 +48,9 @@ public class LoyaltyStation {
         }
     }
 
-    public static func getUrl() -> String {
-        return getDomain(environment: LoyaltyStation.environment) + getPath(agent: LoyaltyStation.agent)
+    /** Get loyalty station webview url **/
+    public func getUrl() -> String {
+        self.getDomain() + self.getPath()
     }
 
     /**
@@ -58,59 +58,99 @@ public class LoyaltyStation {
      */
     private init() {
     }
-    
-    /**
-     Initialize gamipy with the app id and secret key
-     - Parameter appID: App Id.
-     - Parameter options: Gamiphy bot options
-     */
-    public static func initialize(config: Config) {
-        LoyaltyStation.appId = config.app
-        LoyaltyStation.user = config.user
-        LoyaltyStation.agent = config.agent
 
-        webViewController = WebViewController()
+    ///
+    /// Set loyalty station app id
+    /// - Parameter app: loyalty station app id
+    /// - Returns: LoyaltyStation.Type
+    public static func setApp(app: String) -> LoyaltyStation.Type {
+        self.instance.app = app;
+
+        return self
     }
-    
-    /**
-     Open bot on view controller
-     - Parameter on: The view controller to show bot on.
-     - Parameter language: The language to use for bot.
-     */
+
+    ///
+    /// Set loyalty station user object
+    /// - Parameter user: logged in user data
+    /// - Returns: LoyaltyStation.Type
+    public static func setUser(user: User) -> LoyaltyStation.Type {
+        self.instance.user = user;
+
+        return self
+    }
+
+    ///
+    /// Set custom agent
+    /// - Parameter agent: custom ui key - provided by Gamiphy team
+    /// - Returns: LoyaltyStation.Type
+    public static func setAgent(agent: String) -> LoyaltyStation.Type {
+        self.instance.agent = agent;
+
+        return self
+    }
+
+    ///
+    /// Set loyalty station language
+    /// - Parameter language: preferred language to show
+    /// - Returns: LoyaltyStation.Type
+    public static func setLanguage(language: String) -> LoyaltyStation.Type {
+        self.instance.language = language;
+
+        return self
+    }
+
+    ///
+    /// Enable sandbox
+    /// - Parameter sandbox: indicates if sandbox enabled
+    /// - Returns: LoyaltyStation.Type
+    public static func setSandbox(sandbox: Bool) -> LoyaltyStation.Type {
+        self.instance.sandbox = sandbox;
+
+        return self
+    }
+
+    ///
+    /// Initialize gamipy with the app id and secret key
+    public static func initialize() {
+        self.instance.webViewController = WebViewController();
+    }
+
+    ///
+    /// Open loyalty station
+    /// - Parameter on: The view controller to show loyalty station on.
     public static func open(on: UIViewController) {
-        on.present(webViewController!, animated: true, completion: nil)
+        on.present(self.instance.webViewController!, animated: true, completion: nil)
     }
-    
-    /**
-     Close bot
-     */
+
+    ///
+    /// Close loyalty station
     public static func close() {
-        webViewController?.dismiss(animated: true, completion: nil)
+        self.instance.webViewController?.dismiss(animated: true, completion: nil)
     }
-    
-    /**
-        Login to the loyalty station
-     */
+
+    ///
+    /// Login to the loyalty station
+    /// - Parameter user: User data
     public static func login(user: User) {
-        self.user = user;
-        
-        webViewController?.callLoginMethod(user: user)
+        self.instance.user = user;
+
+        self.instance.webViewController?.callLoginMethod(user: user)
     }
 }
 
-/// Gamiphy SDK Delegate
+///
+/// Loyalty station delegate
 public protocol LoyaltyStationDelegate: NSObjectProtocol {
-    /**
-       The delegate will trigger when the loyalty station requires login / signup for the user.
-        - Parameter isSignUp: go to sign screen if true else go to the login page
-     */
+    ///
+    ///  The delegate will trigger when the loyalty station requires login / signup for the user.
+    /// - Parameter isSignUp: go to sign screen if true else go to the login page
     func onAuthTrigger(isSignUp: String)
 }
 
 public extension LoyaltyStationDelegate {
-    /**
-        The delegate will trigger when the loyalty station requires login / signup for the user.
-         - Parameter isSignUp: go to sign screen if true else go to the login page
-      */
-    func onAuthTrigger(isSignUp: Bool) {}
+    ///
+    ///  The delegate will trigger when the loyalty station requires login / signup for the user.
+    /// - Parameter isSignUp: go to sign screen if true else go to the login page
+    func onAuthTrigger(isSignUp: Bool) {
+    }
 }

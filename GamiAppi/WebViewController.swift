@@ -1,47 +1,39 @@
-//
-//  GamiphyWebViewController.swift
-//  GamiphyCode
-//
-//  Created by Mohammad Nabulsi on 5/15/19.
-//  Copyright © 2019 Mohammad Nabulsi. All rights reserved.
-//
-
 import UIKit
 import WebKit
 
 /// Gamiphy Web View Controller
 class WebViewController: UIViewController, WKScriptMessageHandler {
-    
+
     /// Loading View
-    private(set) var loadingView:  UIView!
+    private(set) var loadingView: UIView!
 
     /// Webview
     private var webView: WKWebView!
-    
+
     /**
      Initilizer
      */
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
+
         self.modalPresentationStyle = UIModalPresentationStyle.fullScreen
     }
-    
+
     /**
      Initilizer
      */
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        
+
         self.modalPresentationStyle = UIModalPresentationStyle.fullScreen
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Init webview
         self.initWebView()
-        
+
         // Init loading view
         self.initLoadingView()
 
@@ -51,7 +43,7 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
         // Show loading view
         self.showHideLoadingView(true)
     }
-    
+
     /**
      Init webview
      */
@@ -72,10 +64,10 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
         self.webView = WKWebView(frame: .zero, configuration: webConfiguration)
         self.webView.navigationDelegate = self
         self.webView.scrollView.bounces = false
-        
+
         self.webView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(self.webView)
-        
+
         self.webView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
         self.webView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
         self.webView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
@@ -87,7 +79,7 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
         }
 
         // Setup web view
-        if let myURL = URL(string: LoyaltyStation.getUrl()) {
+        if let myURL = URL(string: LoyaltyStation.instance.getUrl()) {
             let myRequest = URLRequest(url: myURL)
             self.webView.reload()
             self.webView.load(myRequest)
@@ -98,13 +90,13 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
      Initialize Loading View
      */
     func initLoadingView() {
-        
+
         // Init View
         self.loadingView = UIView(frame: CGRect.zero)
         self.loadingView.backgroundColor = UIColor.white.withAlphaComponent(0.5)
         self.view.addSubview(self.loadingView)
         self.loadingView.isHidden = true
-        
+
         // Init Activity Indicator
         let activityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.whiteLarge)
         activityIndicator.tintColor = UIColor.blue
@@ -112,25 +104,25 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
 
         activityIndicator.startAnimating()
         self.loadingView.addSubview(activityIndicator)
-        
+
         // Add loading view constraints
         self.loadingView.translatesAutoresizingMaskIntoConstraints = false
         self.loadingView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
         self.loadingView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
         self.loadingView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
         self.loadingView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
-        
+
         // Add Activity Indicator Constraints
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         activityIndicator.centerXAnchor.constraint(equalTo: self.loadingView.centerXAnchor).isActive = true
         activityIndicator.centerYAnchor.constraint(equalTo: self.loadingView.centerYAnchor).isActive = true
     }
-    
+
     /**
      Show/Hide LoadingView
      - Parameter show : Bool value to show or hide loading view.
      */
-    func showHideLoadingView(_ show : Bool) {
+    func showHideLoadingView(_ show: Bool) {
         self.view.bringSubviewToFront(self.loadingView)
         self.loadingView.isHidden = !show
     }
@@ -138,7 +130,8 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
     func callInitMethod() {
         do {
             let config = """
-                         app: '\(LoyaltyStation.appId!)',
+                         app: '\(LoyaltyStation.instance.app!)',
+                         prefLang: '\(LoyaltyStation.instance.language ?? "en")',
                          onClose: function() {
                             webkit.messageHandlers.onClose.postMessage("close")
                          },
@@ -146,8 +139,8 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
                             webkit.messageHandlers.onAuthTrigger.postMessage(isSignUp)
                          }
                          """
-            if(LoyaltyStation.user != nil) {
-                let userData = try JSONEncoder().encode(LoyaltyStation.user);
+            if (LoyaltyStation.instance.user != nil) {
+                let userData = try JSONEncoder().encode(LoyaltyStation.instance.user);
                 let userDataString = String(data: userData, encoding: .utf8);
 
                 self.webView.evaluateJavaScript("""
@@ -167,22 +160,26 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
                         completionHandler: nil
                 )
             }
-        } catch {print(error)}
+        } catch {
+            print(error)
+        }
     }
-    
+
     func callLoginMethod(user: User) {
         do {
             let userData = try JSONEncoder().encode(user);
             let userDataString = String(data: userData, encoding: .utf8);
-            
-            if(self.webView != nil) {
+
+            if (self.webView != nil) {
                 self.webView.evaluateJavaScript("""
                                                 window.Gamiphy.login({user: \(userDataString!)})
                                                 """,
                         completionHandler: nil
                 )
             }
-        } catch {print(error)}
+        } catch {
+            print(error)
+        }
     }
 
     func onClose() {
@@ -203,19 +200,19 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
 
 // MARK: - WKNavigationDelegate
 extension WebViewController: WKNavigationDelegate {
-    
+
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         decisionHandler(.allow)
     }
-    
+
     func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void) {
-        
+
         guard let response = navigationResponse.response as? HTTPURLResponse,
-            let url = navigationResponse.response.url else {
-                decisionHandler(.cancel)
-                return
+              let url = navigationResponse.response.url else {
+            decisionHandler(.cancel)
+            return
         }
-        
+
         if let headerFields = response.allHeaderFields as? [String: String] {
             let cookies = HTTPCookie.cookies(withResponseHeaderFields: headerFields, for: url)
             cookies.forEach { cookie in
@@ -224,10 +221,10 @@ extension WebViewController: WKNavigationDelegate {
                 }
             }
         }
-        
+
         decisionHandler(.allow)
     }
-    
+
     /**
      Did fail to load
      */
@@ -235,7 +232,7 @@ extension WebViewController: WKNavigationDelegate {
         self.showHideLoadingView(false)
         print(error)
     }
-    
+
     /**
      Did fail to load
      */
@@ -243,11 +240,11 @@ extension WebViewController: WKNavigationDelegate {
         self.showHideLoadingView(false)
         print(error)
     }
-    
+
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         self.showHideLoadingView(true)
     }
-    
+
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         self.showHideLoadingView(false);
 

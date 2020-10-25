@@ -1,31 +1,34 @@
-//
-//  User.swift
-//  GamiphyCode
-//
-//  Created by Mohammad Nabulsi on 6/14/19.
-//  Copyright © 2019 Mohammad Nabulsi. All rights reserved.
-//
-
 import Foundation
 
+///
+/// Use data model
 public struct User: Encodable, Decodable {
+    /** User id **/
     public var id: String?
-    public var firstName: String
-    public var lastName: String
+    /** User email **/
     public var email: String?
-    public var hash: String?
+    /** User first name **/
+    public var firstName: String
+    /** User last name **/
+    public var lastName: String
+    /** User hash **/
+    public var hash: String
+    /** User country **/
+    public var country: String?
 
-    public init(id: String, firstName: String, lastName: String, hash: String?) {
+    public init(id: String, firstName: String, lastName: String, country: String?, hash: String) {
         self.id = id
         self.firstName = firstName
         self.lastName = lastName
+        self.country = country
         self.hash = hash
     }
 
-    public init(email: String, firstName: String, lastName: String, hash: String?) {
+    public init(email: String, firstName: String, lastName: String, country: String?, hash: String) {
         self.email = email
         self.firstName = firstName
         self.lastName = lastName
+        self.country = country
         self.hash = hash
     }
 }

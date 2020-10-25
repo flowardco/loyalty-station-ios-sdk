@@ -1,22 +1,19 @@
-//
-//  AppDelegate.swift
-//  GamiAppiApp
-//
-//  Created by Abdallah on 3/16/20.
-//  Copyright © 2020 Abdallah. All rights reserved.
-//
-
 import UIKit
 import LoyaltyStation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
+
     var window: UIWindow?
-    
-    
+
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        LoyaltyStation.initialize(config: Config(app: "5f71e34bdbaa0b0019df9c58", agent: "floward"))
+        LoyaltyStation
+                .setApp(app: "5f71e34bdbaa0b0019df9c58")
+                .setAgent(agent: "floward")
+                .setLanguage(language: "ar")
+                .setSandbox(sandbox: true)
+                .initialize()
 
         return true
     }

@@ -8,16 +8,11 @@
 
 import Foundation
 
-public enum Environments : String, Decodable {
-    case dev = "dev"
-    case staging = "staging"
-    case prod = "prod"
-}
-
 public struct Config {
-    public var app: String
-    public var user: User?
-    public var agent: String?
+    public var app: String? = nil
+    public var user: User? = nil
+    public var agent: String? = nil
+    public var language: String? = nil
     
     public init(app: String) {
         self.app = app
