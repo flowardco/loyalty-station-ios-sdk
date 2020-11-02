@@ -10,6 +10,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         LoyaltyStation
                 .setApp(app: "5f71e34bdbaa0b0019df9c58")
+            .setUser(user: User(id: "test-id", firstName: "Riyad", lastName: "Yahya", country: nil, referral: nil, hash: "237ccb1812cf2c893e341788921ec62515ca6d0507d7e4577055b25b794f831c"))
                 .setAgent(agent: "floward")
                 .setLanguage(language: "ar")
                 .setSandbox(sandbox: true)

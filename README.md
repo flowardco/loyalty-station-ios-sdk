@@ -27,29 +27,78 @@ you can get after you signup for an account at Gamiphy. Kindly note the initiliz
 
 ```swift
     LoyaltyStation
+        //Set app id (required)
         .setApp(app: String?)
-        .setUser(user: User(id: String, firstName: String, lastName: String, hash: String, country: String?))
+        //Set user data (optional)
+        .setUser(
+            user: User(
+                //User id (required)
+                id: String, 
+                //User first name (required)
+                firstName: String, 
+                //User last name (required)
+                lastName: String, 
+                //User country (required)
+                country: String?, 
+                //User referral (optional) - Check referral section
+                referral: UserReferral(
+                    //User referrer id (required)
+                    referrer: String
+                ), 
+                //User hmac hash result (required)
+                hash: String
+            )
+        )
+        //Gamiphy custom agent key (optional)
         .setAgent(agent: String)
+        //Preferred language to show (optional)
         .setLanguage(language: String)
-        .setSandbox(sandbox: Bool // set true for development)
+        //Open within sandbox (optional)
+        .setSandbox(sandbox: Bool)
+        //Start initialization
         .initialize()
 ```
 To open the bot, use the following line.
 ```swift
     LoyaltyStation.open(on: self)
 ```
+
+
 ## Widget visitor flow 
 
 Gamiphy Loyalty Station support the ability for the end users to navigate the different features available, without even being logged in. But whenever the users trying to perform actions they will be redirected to either login or signup to the application. You need to specify the Activity where the users can login / register in your application. OnAuthTrigger method called when click signUp/login in the widget. isSignUp true for signup redirection, isSignUp false for login redirection.
 
 In login activity, after the user logged in, set user name and email and start gamiphy view
 ```swift
-    LoyaltyStation.login(user: 
-      User(
-        id: <userId>, 
-        firstName: <userFirstName>, 
-        lastName: <userLastName>, 
-        hash: <userHash>
-      )
+    LoyaltyStation.login(
+         user: User(
+             //User id (required)
+             id: String, 
+             //User first name (required)
+             firstName: String, 
+             //User last name (required)
+             lastName: String, 
+             //User country (required)
+             country: String?, 
+             //User referral (optional) - Check referral section
+             referral: UserReferral(
+                 //User referrer id (required)
+                 referrer: String
+             ), 
+             //User hmac hash result (required)
+             hash: String
+         )
     )
 ```
+
+
+## Referral program integration
+
+Loyalty station supports users referrals through firebase dynamic links. Gamiphy system generates a dynamic link for every user. This link includes the referrer id of the original user.
+To get the benefit of the referral system, you need to pass the dynamic link parameter to the Loyalty station sdk. The SDK will handle it from there.
+
+### Parse dynamic link
+Follow the firebase official doc to parse the dynamic link and read the required parameter. You can check [here](https://firebase.google.com/docs/dynamic-links/ios/receive).
+
+### Pass referrer parameter 
+You need to read the `ls-referrer` parameter from the dynamic link and pass it to the Loyalty station under user.referral.referrer

@@ -54,6 +54,7 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
 
         let contentController = WKUserContentController()
         contentController.add(self, name: "onClose")
+        contentController.add(self, name: "onShare")
         contentController.add(self, name: "onAuthTrigger")
 
         let webConfiguration = WKWebViewConfiguration()
@@ -135,14 +136,18 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
                          onClose: function() {
                             webkit.messageHandlers.onClose.postMessage("close")
                          },
+                         shareHandler: function(link, text) {
+                            webkit.messageHandlers.onShare.postMessage({link: link, text: text})
+                         },
                          onAuthTrigger: function(isSignUp) {
                             webkit.messageHandlers.onAuthTrigger.postMessage(isSignUp)
                          }
                          """
+            
             if (LoyaltyStation.instance.user != nil) {
                 let userData = try JSONEncoder().encode(LoyaltyStation.instance.user);
                 let userDataString = String(data: userData, encoding: .utf8);
-
+                
                 self.webView.evaluateJavaScript("""
                                                 window.Gamiphy.init({
                                                 \(config), 
@@ -190,6 +195,17 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
         switch message.name {
         case "onClose":
             LoyaltyStation.close()
+        case "onShare":
+            let body = message.body as! Dictionary<String, String>
+            let text: String = body["text"] ?? ""
+            let link: String = body["link"] ?? ""
+
+            let textShare = [text + "\n" + link]
+
+            let activityViewController = UIActivityViewController(activityItems: textShare, applicationActivities: nil)
+            activityViewController.popoverPresentationController?.sourceView = self.view
+
+            self.present(activityViewController, animated: true, completion: nil)
         case "onAuthTrigger":
             LoyaltyStation.delegate?.onAuthTrigger(isSignUp: message.body as! Bool)
         default:
