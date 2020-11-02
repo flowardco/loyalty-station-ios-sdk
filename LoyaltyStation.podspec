@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "LoyaltyStation"
-  s.version       = "5.0.0"
+  s.version       = "5.1.0"
   s.summary       = "Loyalty Station"
   s.description   = "Loyalty Station SDK"
   s.homepage      = "https://github.com/gamiphy/loyalty-station-ios-sdk.git"

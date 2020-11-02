@@ -8,14 +8,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="Support multi-language&#10;Support set user country">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi.xcworkspace/xcuserdata/riyad.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi.xcworkspace/xcuserdata/riyad.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/Models/User.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi/Models/User.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppi/WebViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppi/WebViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppiApp/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamiAppiApp/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/GamiAppiApp/ViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="fbdfa1df-48ef-48c1-bf62-62039f552f07" name="Default Changelist" comment="* Support native share&#10;* Support referral program">
+      <change beforePath="$PROJECT_DIR$/LoyaltyStation.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/LoyaltyStation.podspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,7 @@
       <workItem from="1603113351470" duration="138000" />
       <workItem from="1603629268919" duration="4302000" />
       <workItem from="1603902332905" duration="939000" />
-      <workItem from="1604347813919" duration="2787000" />
+      <workItem from="1604347813919" duration="2871000" />
     </task>
     <task id="LOCAL-00001" summary="Support new loyalty station">
       <created>1602513992036</created>
@@ -118,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603641984010</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="* Support native share&#10;* Support referral program">
+      <created>1604358017847</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604358017847</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +173,8 @@
     <MESSAGE value="Fix version" />
     <MESSAGE value="Add login method" />
     <MESSAGE value="Support multi-language&#10;Support set user country" />
-    <option name="LAST_COMMIT_MESSAGE" value="Support multi-language&#10;Support set user country" />
+    <MESSAGE value="* Support native share&#10;* Support referral program" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Support native share&#10;* Support referral program" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2213" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1602152997167">
@@ -253,11 +255,11 @@
     </state>
     <state x="2130" y="290" width="540" height="524" key="StructurePopup/0.23.1440.808/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602152326345" />
     <state x="518" y="227" width="519" height="401" key="StructurePopup/0.23.1440.808@0.23.1440.808" timestamp="1602160846931" />
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1603641990004">
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1604358019776">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="320" y="146" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1602675653401" />
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1603641990004" />
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1604358019776" />
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602502535051">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -276,10 +278,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="341" y="147" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.808@0.23.1440.808" timestamp="1602486701741" />
-    <state x="472" y="278" key="git4idea.ui.GitTagDialog" timestamp="1602515620007">
+    <state x="472" y="278" key="git4idea.ui.GitTagDialog" timestamp="1604358028115">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="472" y="278" key="git4idea.ui.GitTagDialog/0.23.1440.808@0.23.1440.808" timestamp="1602515620007" />
+    <state x="472" y="278" key="git4idea.ui.GitTagDialog/0.23.1440.808@0.23.1440.808" timestamp="1604358028115" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1603641239026">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
