@@ -10,7 +10,7 @@ import Foundation
 
 public struct Config {
     public var app: String? = nil
-    public var user: User? = nil
+    public var user: GLUser? = nil
     public var agent: String? = nil
     public var language: String? = nil
     
@@ -18,7 +18,7 @@ public struct Config {
         self.app = app
     }
     
-    public init(app: String, user: User?) {
+    public init(app: String, user: GLUser?) {
         self.app = app
         self.user = user
     }
@@ -28,7 +28,7 @@ public struct Config {
         self.agent = agent
     }
     
-    public init(app: String, user: User?, agent: String?) {
+    public init(app: String, user: GLUser?, agent: String?) {
         self.app = app
         self.user = user
         self.agent = agent
