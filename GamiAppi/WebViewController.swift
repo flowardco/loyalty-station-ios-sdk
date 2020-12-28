@@ -170,7 +170,7 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
         }
     }
 
-    func callLoginMethod(user: User) {
+    func callLoginMethod(user: GLUser) {
         do {
             let userData = try JSONEncoder().encode(user);
             let userDataString = String(data: userData, encoding: .utf8);

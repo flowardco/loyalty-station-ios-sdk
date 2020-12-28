@@ -9,7 +9,7 @@ public class LoyaltyStation {
     internal var app: String? = nil
 
     /** Logged in user data **/
-    internal var user: User? = nil
+    internal var user: GLUser? = nil
 
     /** Gamiphy agent key **/
     internal var agent: String? = nil
@@ -73,7 +73,7 @@ public class LoyaltyStation {
     /// Set loyalty station user object
     /// - Parameter user: logged in user data
     /// - Returns: LoyaltyStation.Type
-    public static func setUser(user: User) -> LoyaltyStation.Type {
+    public static func setUser(user: GLUser) -> LoyaltyStation.Type {
         self.instance.user = user;
 
         return self
@@ -131,7 +131,7 @@ public class LoyaltyStation {
     ///
     /// Login to the loyalty station
     /// - Parameter user: User data
-    public static func login(user: User) {
+    public static func login(user: GLUser) {
         self.instance.user = user;
 
         self.instance.webViewController?.callLoginMethod(user: user)

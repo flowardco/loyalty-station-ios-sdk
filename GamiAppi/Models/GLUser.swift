@@ -2,7 +2,7 @@ import Foundation
 
 ///
 /// Use referral model
-public struct UserReferral: Encodable, Decodable {
+public struct GLUserReferral: Encodable, Decodable {
     /** User id **/
     public var referrer: String
 
@@ -13,7 +13,7 @@ public struct UserReferral: Encodable, Decodable {
 
 ///
 /// Use data model
-public struct User: Encodable, Decodable {
+public struct GLUser: Encodable, Decodable {
     /** User id **/
     public var id: String?
     /** User email **/
@@ -23,13 +23,13 @@ public struct User: Encodable, Decodable {
     /** User last name **/
     public var lastName: String
     /** User referral **/
-    public var referral: UserReferral?
+    public var referral: GLUserReferral?
     /** User hash **/
     public var hash: String
     /** User country **/
     public var country: String?
 
-    public init(id: String, firstName: String, lastName: String, country: String?, referral: UserReferral?, hash: String) {
+    public init(id: String, firstName: String, lastName: String, country: String?, referral: GLUserReferral?, hash: String) {
         self.id = id
         self.firstName = firstName
         self.lastName = lastName
@@ -38,7 +38,7 @@ public struct User: Encodable, Decodable {
         self.hash = hash
     }
 
-    public init(email: String, firstName: String, lastName: String, country: String?, referral: UserReferral?, hash: String) {
+    public init(email: String, firstName: String, lastName: String, country: String?, referral: GLUserReferral?, hash: String) {
         self.email = email
         self.firstName = firstName
         self.lastName = lastName
